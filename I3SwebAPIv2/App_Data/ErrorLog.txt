@@ -1,0 +1,2369 @@
+********** 12/11/2021 12:13:54 AM **********
+Inner Exception Type: MySql.Data.MySqlClient.MySqlException
+Inner Exception: Fatal error encountered attempting to read the resultset.
+Inner Source: MySql.Data
+Inner Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+Exception Type: MySql.Data.MySqlClient.MySqlException
+Exception: Fatal error encountered during command execution.
+Source: parent/club-relationship
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at I3SwebAPIv2.Controllers.ParentsV2Controller.Post_Parent_Club_Relationship(ParentClubRelationshipParam value)
+
+********** 12/11/2021 12:13:59 AM **********
+Inner Exception Type: MySql.Data.MySqlClient.MySqlException
+Inner Exception: Fatal error encountered attempting to read the resultset.
+Inner Source: MySql.Data
+Inner Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+Exception Type: MySql.Data.MySqlClient.MySqlException
+Exception: Fatal error encountered during command execution.
+Source: parent/club-relationship
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at I3SwebAPIv2.Controllers.ParentsV2Controller.Post_Parent_Club_Relationship(ParentClubRelationshipParam value)
+
+********** 12/11/2021 12:14:21 AM **********
+Inner Exception Type: MySql.Data.MySqlClient.MySqlException
+Inner Exception: Fatal error encountered attempting to read the resultset.
+Inner Source: MySql.Data
+Inner Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+Exception Type: MySql.Data.MySqlClient.MySqlException
+Exception: Fatal error encountered during command execution.
+Source: wallet/transaction-history
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at I3SwebAPIv2.Controllers.WalletV2Controller.Post_Wallet_Transaction_History(WalletTransactionHistoryParam value)
+
+********** 12/11/2021 12:14:21 AM **********
+Inner Exception Type: MySql.Data.MySqlClient.MySqlException
+Inner Exception: Fatal error encountered attempting to read the resultset.
+Inner Source: MySql.Data
+Inner Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+Exception Type: MySql.Data.MySqlClient.MySqlException
+Exception: Fatal error encountered during command execution.
+Source: contact/class-teacher
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at I3SwebAPIv2.Controllers.ContactV2Controller.Post_Contact_Class_Teacher(StaffContactRequest body)
+
+********** 12/11/2021 12:14:21 AM **********
+Inner Exception Type: MySql.Data.MySqlClient.MySqlException
+Inner Exception: Fatal error encountered attempting to read the resultset.
+Inner Source: MySql.Data
+Inner Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+Exception Type: MySql.Data.MySqlClient.MySqlException
+Exception: Fatal error encountered during command execution.
+Source: chat/history
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at I3SwebAPIv2.Controllers.ChatV2Controller.Post_Chat_History(ChatHistoryParam value)
+
+********** 12/11/2021 12:14:23 AM **********
+Inner Exception Type: MySql.Data.MySqlClient.MySqlException
+Inner Exception: Fatal error encountered attempting to read the resultset.
+Inner Source: MySql.Data
+Inner Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+Exception Type: MySql.Data.MySqlClient.MySqlException
+Exception: Fatal error encountered during command execution.
+Source: purchase/cart
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at I3SwebAPIv2.Controllers.PurchaseV2Controller.Post_Purchase_Order_Cart_Date_Group(OrderCartParam value)
+
+********** 12/11/2021 12:15:15 AM **********
+Inner Exception Type: MySql.Data.MySqlClient.MySqlException
+Inner Exception: Fatal error encountered attempting to read the resultset.
+Inner Source: MySql.Data
+Inner Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+Exception Type: MySql.Data.MySqlClient.MySqlException
+Exception: Fatal error encountered during command execution.
+Source: wallet/transaction-history
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at I3SwebAPIv2.Controllers.WalletV2Controller.Post_Wallet_Transaction_History(WalletTransactionHistoryParam value)
+
+********** 12/14/2021 3:45:21 PM **********
+Exception Type: MySql.Data.MySqlClient.MySqlException
+Exception: Unknown column 't2.state_group' in 'on clause'
+Source: staff/monthly-attendance
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at I3SwebAPIv2.Controllers.StaffsV2Controller.Post_Staff_Monthly_Attendance(StaffAttendanceParam value)
+
+********** 12/14/2021 3:45:48 PM **********
+Exception Type: MySql.Data.MySqlClient.MySqlException
+Exception: Unknown column 't2.state_group' in 'on clause'
+Source: staff/monthly-attendance
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at I3SwebAPIv2.Controllers.StaffsV2Controller.Post_Staff_Monthly_Attendance(StaffAttendanceParam value)
+
+********** 12/15/2021 12:48:41 PM **********
+Exception Type: MySql.Data.MySqlClient.MySqlException
+Exception: Unknown column 't2.state_group' in 'on clause'
+Source: school/club-member-monthly-attendance
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at I3SwebAPIv2.Controllers.SchoolsV2Controller.Post_School_Club_Member_Monthly_Attendance(ClubMemberMonthlyAttendanceParam value)
+
+********** 12/15/2021 2:14:55 PM **********
+Exception Type: MySql.Data.MySqlClient.MySqlException
+Exception: Unknown column 'WalletID' in 'field list'
+Source: user/register
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at I3SwebAPIv2.Controllers.UsersV2Controller.<Post_User_Register>d__2.MoveNext()
+
+********** 12/15/2021 2:46:10 PM **********
+Exception Type: MySql.Data.MySqlClient.MySqlException
+Exception: Unknown column 't2.state_group' in 'on clause'
+Source: staff/monthly-attendance
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at I3SwebAPIv2.Controllers.StaffsV2Controller.Post_Staff_Monthly_Attendance(StaffAttendanceParam value)
+
+********** 12/15/2021 2:47:21 PM **********
+Exception Type: MySql.Data.MySqlClient.MySqlException
+Exception: Unknown column 't2.state_group' in 'on clause'
+Source: school/staff-daily-attendance
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at I3SwebAPIv2.Controllers.SchoolsV2Controller.Post_School_Staff_Daily_Attendance(SchoolStaffDailyAttendanceParam value)
+
+********** 12/15/2021 2:47:27 PM **********
+Exception Type: MySql.Data.MySqlClient.MySqlException
+Exception: Unknown column 't2.state_group' in 'on clause'
+Source: school/staff-daily-attendance
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at I3SwebAPIv2.Controllers.SchoolsV2Controller.Post_School_Staff_Daily_Attendance(SchoolStaffDailyAttendanceParam value)
+
+********** 12/15/2021 2:47:33 PM **********
+Exception Type: MySql.Data.MySqlClient.MySqlException
+Exception: Unknown column 't2.state_group' in 'on clause'
+Source: school/staff-daily-attendance
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at I3SwebAPIv2.Controllers.SchoolsV2Controller.Post_School_Staff_Daily_Attendance(SchoolStaffDailyAttendanceParam value)
+
+********** 12/15/2021 2:53:20 PM **********
+Exception Type: MySql.Data.MySqlClient.MySqlException
+Exception: Unknown column 't2.state_group' in 'on clause'
+Source: school/staff-daily-attendance
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at I3SwebAPIv2.Controllers.SchoolsV2Controller.Post_School_Staff_Daily_Attendance(SchoolStaffDailyAttendanceParam value)
+
+********** 12/15/2021 2:53:38 PM **********
+Exception Type: MySql.Data.MySqlClient.MySqlException
+Exception: Unknown column 't2.state_group' in 'on clause'
+Source: school/staff-daily-attendance
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at I3SwebAPIv2.Controllers.SchoolsV2Controller.Post_School_Staff_Daily_Attendance(SchoolStaffDailyAttendanceParam value)
+
+********** 12/15/2021 3:21:12 PM **********
+Exception Type: MySql.Data.MySqlClient.MySqlException
+Exception: Unknown column 't2.state_group' in 'on clause'
+Source: school/staff-daily-attendance
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at I3SwebAPIv2.Controllers.SchoolsV2Controller.Post_School_Staff_Daily_Attendance(SchoolStaffDailyAttendanceParam value)
+
+********** 12/15/2021 4:16:09 PM **********
+Exception Type: System.OverflowException
+Exception: Value was either too large or too small for an Int16.
+Source: wallet/transaction-detail
+Stack Trace: 
+   at System.Convert.ToInt16(Int32 value)
+   at System.Int32.System.IConvertible.ToInt16(IFormatProvider provider)
+   at System.Convert.ToInt16(Object value)
+   at I3SwebAPIv2.Controllers.WalletV2Controller.Post_Wallet_Transaction_Detail(WalletTransactionDetailParam value)
+
+********** 12/15/2021 4:16:22 PM **********
+Exception Type: System.OverflowException
+Exception: Value was either too large or too small for an Int16.
+Source: wallet/transaction-detail
+Stack Trace: 
+   at System.Convert.ToInt16(Int32 value)
+   at System.Int32.System.IConvertible.ToInt16(IFormatProvider provider)
+   at System.Convert.ToInt16(Object value)
+   at I3SwebAPIv2.Controllers.WalletV2Controller.Post_Wallet_Transaction_Detail(WalletTransactionDetailParam value)
+
+********** 12/15/2021 4:16:52 PM **********
+Exception Type: System.OverflowException
+Exception: Value was either too large or too small for an Int16.
+Source: wallet/transaction-detail
+Stack Trace: 
+   at System.Convert.ToInt16(Int32 value)
+   at System.Int32.System.IConvertible.ToInt16(IFormatProvider provider)
+   at System.Convert.ToInt16(Object value)
+   at I3SwebAPIv2.Controllers.WalletV2Controller.Post_Wallet_Transaction_Detail(WalletTransactionDetailParam value)
+
+********** 12/15/2021 11:34:05 PM **********
+Exception Type: MySql.Data.MySqlClient.MySqlException
+Exception: Unknown column 't2.state_group' in 'on clause'
+Source: student/monthly-attendance
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at I3SwebAPIv2.Controllers.StudentsV2Controller.Post_Student_Monthly_Attendance(StudentMonthlyAttendanceParam value)
+
+********** 12/16/2021 10:32:09 PM **********
+Exception Type: System.OverflowException
+Exception: Value was either too large or too small for an Int16.
+Source: wallet/transaction-detail
+Stack Trace: 
+   at System.Convert.ToInt16(Int32 value)
+   at System.Int32.System.IConvertible.ToInt16(IFormatProvider provider)
+   at System.Convert.ToInt16(Object value)
+   at I3SwebAPIv2.Controllers.WalletV2Controller.Post_Wallet_Transaction_Detail(WalletTransactionDetailParam value)
+
+********** 12/16/2021 10:33:23 PM **********
+Exception Type: System.OverflowException
+Exception: Value was either too large or too small for an Int16.
+Source: wallet/transaction-detail
+Stack Trace: 
+   at System.Convert.ToInt16(Int32 value)
+   at System.Int32.System.IConvertible.ToInt16(IFormatProvider provider)
+   at System.Convert.ToInt16(Object value)
+   at I3SwebAPIv2.Controllers.WalletV2Controller.Post_Wallet_Transaction_Detail(WalletTransactionDetailParam value)
+
+********** 12/16/2021 10:43:05 PM **********
+Exception Type: System.OverflowException
+Exception: Value was either too large or too small for an Int16.
+Source: wallet/transaction-detail
+Stack Trace: 
+   at System.Convert.ToInt16(Int32 value)
+   at System.Int32.System.IConvertible.ToInt16(IFormatProvider provider)
+   at System.Convert.ToInt16(Object value)
+   at I3SwebAPIv2.Controllers.WalletV2Controller.Post_Wallet_Transaction_Detail(WalletTransactionDetailParam value)
+
+********** 12/16/2021 10:49:00 PM **********
+Exception Type: System.OverflowException
+Exception: Value was either too large or too small for an Int16.
+Source: wallet/transaction-detail
+Stack Trace: 
+   at System.Convert.ToInt16(Int32 value)
+   at System.Int32.System.IConvertible.ToInt16(IFormatProvider provider)
+   at System.Convert.ToInt16(Object value)
+   at I3SwebAPIv2.Controllers.WalletV2Controller.Post_Wallet_Transaction_Detail(WalletTransactionDetailParam value)
+
+********** 12/16/2021 10:49:02 PM **********
+Exception Type: System.OverflowException
+Exception: Value was either too large or too small for an Int16.
+Source: wallet/transaction-detail
+Stack Trace: 
+   at System.Convert.ToInt16(Int32 value)
+   at System.Int32.System.IConvertible.ToInt16(IFormatProvider provider)
+   at System.Convert.ToInt16(Object value)
+   at I3SwebAPIv2.Controllers.WalletV2Controller.Post_Wallet_Transaction_Detail(WalletTransactionDetailParam value)
+
+********** 12/16/2021 11:33:48 PM **********
+Exception Type: System.OverflowException
+Exception: Value was either too large or too small for an Int16.
+Source: wallet/transaction-detail
+Stack Trace: 
+   at System.Convert.ToInt16(Int32 value)
+   at System.Int32.System.IConvertible.ToInt16(IFormatProvider provider)
+   at System.Convert.ToInt16(Object value)
+   at I3SwebAPIv2.Controllers.WalletV2Controller.Post_Wallet_Transaction_Detail(WalletTransactionDetailParam value)
+
+********** 12/16/2021 11:34:00 PM **********
+Exception Type: System.OverflowException
+Exception: Value was either too large or too small for an Int16.
+Source: wallet/transaction-detail
+Stack Trace: 
+   at System.Convert.ToInt16(Int32 value)
+   at System.Int32.System.IConvertible.ToInt16(IFormatProvider provider)
+   at System.Convert.ToInt16(Object value)
+   at I3SwebAPIv2.Controllers.WalletV2Controller.Post_Wallet_Transaction_Detail(WalletTransactionDetailParam value)
+
+********** 12/16/2021 11:34:05 PM **********
+Exception Type: System.OverflowException
+Exception: Value was either too large or too small for an Int16.
+Source: wallet/transaction-detail
+Stack Trace: 
+   at System.Convert.ToInt16(Int32 value)
+   at System.Int32.System.IConvertible.ToInt16(IFormatProvider provider)
+   at System.Convert.ToInt16(Object value)
+   at I3SwebAPIv2.Controllers.WalletV2Controller.Post_Wallet_Transaction_Detail(WalletTransactionDetailParam value)
+
+********** 12/16/2021 11:34:08 PM **********
+Exception Type: System.OverflowException
+Exception: Value was either too large or too small for an Int16.
+Source: wallet/transaction-detail
+Stack Trace: 
+   at System.Convert.ToInt16(Int32 value)
+   at System.Int32.System.IConvertible.ToInt16(IFormatProvider provider)
+   at System.Convert.ToInt16(Object value)
+   at I3SwebAPIv2.Controllers.WalletV2Controller.Post_Wallet_Transaction_Detail(WalletTransactionDetailParam value)
+
+********** 12/19/2021 10:07:18 PM **********
+Inner Exception Type: System.ComponentModel.Win32Exception
+Inner Exception: The message or signature supplied for verification has been altered
+Inner Source: 
+Exception Type: System.Security.Authentication.AuthenticationException
+Exception: A call to SSPI failed, see inner exception.
+Source: school/post
+Stack Trace: 
+   at MySql.Data.Common.Ssl.StartSSL(Stream& baseStream, Encoding encoding, String connectionString)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at I3SwebAPIv2.Controllers.SchoolsV2Controller.Post_School_Post(SqlFilterParam uri, SchoolPostRequest body)
+
+********** 12/21/2021 12:02:17 PM **********
+Inner Exception Type: System.ComponentModel.Win32Exception
+Inner Exception: The message or signature supplied for verification has been altered
+Inner Source: 
+Exception Type: System.Security.Authentication.AuthenticationException
+Exception: A call to SSPI failed, see inner exception.
+Source: user/init-login
+Stack Trace: 
+   at MySql.Data.Common.Ssl.StartSSL(Stream& baseStream, Encoding encoding, String connectionString)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at I3SwebAPIv2.Controllers.UsersV2Controller.Post_User_Init_Login(String culture, LoginParam value)
+
+********** 12/21/2021 1:04:27 PM **********
+Inner Exception Type: MySql.Data.MySqlClient.MySqlException
+Inner Exception: Fatal error encountered attempting to read the resultset.
+Inner Source: MySql.Data
+Inner Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+Exception Type: MySql.Data.MySqlClient.MySqlException
+Exception: Fatal error encountered during command execution.
+Source: staff/profile
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at I3SwebAPIv2.Controllers.StaffsV2Controller.Post_Staff_Profile(ProfileParam value)
+
+********** 12/21/2021 1:04:38 PM **********
+Inner Exception Type: MySql.Data.MySqlClient.MySqlException
+Inner Exception: Fatal error encountered attempting to read the resultset.
+Inner Source: MySql.Data
+Inner Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+Exception Type: MySql.Data.MySqlClient.MySqlException
+Exception: Fatal error encountered during command execution.
+Source: staff/profile
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at I3SwebAPIv2.Controllers.StaffsV2Controller.Post_Staff_Profile(ProfileParam value)
+
+********** 12/21/2021 1:05:32 PM **********
+Inner Exception Type: MySql.Data.MySqlClient.MySqlException
+Inner Exception: Fatal error encountered attempting to read the resultset.
+Inner Source: MySql.Data
+Inner Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+Exception Type: MySql.Data.MySqlClient.MySqlException
+Exception: Fatal error encountered during command execution.
+Source: school/post
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at I3SwebAPIv2.Controllers.SchoolsV2Controller.Post_School_Post(SqlFilterParam uri, SchoolPostRequest body)
+
+********** 12/21/2021 1:05:32 PM **********
+Inner Exception Type: MySql.Data.MySqlClient.MySqlException
+Inner Exception: Fatal error encountered attempting to read the resultset.
+Inner Source: MySql.Data
+Inner Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+Exception Type: MySql.Data.MySqlClient.MySqlException
+Exception: Fatal error encountered during command execution.
+Source: school/post
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at I3SwebAPIv2.Controllers.SchoolsV2Controller.Post_School_Post(SqlFilterParam uri, SchoolPostRequest body)
+
+********** 12/21/2021 1:05:34 PM **********
+Inner Exception Type: MySql.Data.MySqlClient.MySqlException
+Inner Exception: Fatal error encountered attempting to read the resultset.
+Inner Source: MySql.Data
+Inner Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+Exception Type: MySql.Data.MySqlClient.MySqlException
+Exception: Fatal error encountered during command execution.
+Source: school/post
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at I3SwebAPIv2.Controllers.SchoolsV2Controller.Post_School_Post(SqlFilterParam uri, SchoolPostRequest body)
+
+********** 12/21/2021 1:06:04 PM **********
+Inner Exception Type: MySql.Data.MySqlClient.MySqlException
+Inner Exception: Fatal error encountered attempting to read the resultset.
+Inner Source: MySql.Data
+Inner Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+Exception Type: MySql.Data.MySqlClient.MySqlException
+Exception: Fatal error encountered during command execution.
+Source: wallet/transaction-history
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at I3SwebAPIv2.Controllers.WalletV2Controller.Post_Wallet_Transaction_History(WalletTransactionHistoryParam value)
+
+********** 12/21/2021 1:06:07 PM **********
+Inner Exception Type: MySql.Data.MySqlClient.MySqlException
+Inner Exception: Fatal error encountered attempting to read the resultset.
+Inner Source: MySql.Data
+Inner Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+Exception Type: MySql.Data.MySqlClient.MySqlException
+Exception: Fatal error encountered during command execution.
+Source: school/post
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at I3SwebAPIv2.Controllers.SchoolsV2Controller.Post_School_Post(SqlFilterParam uri, SchoolPostRequest body)
+
+********** 12/21/2021 1:06:34 PM **********
+Inner Exception Type: MySql.Data.MySqlClient.MySqlException
+Inner Exception: Fatal error encountered attempting to read the resultset.
+Inner Source: MySql.Data
+Inner Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+Exception Type: MySql.Data.MySqlClient.MySqlException
+Exception: Fatal error encountered during command execution.
+Source: purchase/cart-count
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at I3SwebAPIv2.Controllers.PurchaseV2Controller.Post_Purchase_Order_Cart_Count(CartCountParam value)
+
+********** 12/21/2021 1:06:38 PM **********
+Inner Exception Type: MySql.Data.MySqlClient.MySqlException
+Inner Exception: Fatal error encountered attempting to read the resultset.
+Inner Source: MySql.Data
+Inner Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+Exception Type: MySql.Data.MySqlClient.MySqlException
+Exception: Fatal error encountered during command execution.
+Source: purchase/cart-count
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at I3SwebAPIv2.Controllers.PurchaseV2Controller.Post_Purchase_Order_Cart_Count(CartCountParam value)
+
+********** 12/24/2021 1:00:59 PM **********
+Exception Type: MySql.Data.MySqlClient.MySqlException
+Exception: Unknown column 't2.state_group' in 'on clause'
+Source: student/monthly-attendance
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at I3SwebAPIv2.Controllers.StudentsV2Controller.Post_Student_Monthly_Attendance(StudentMonthlyAttendanceParam value)
+
+********** 12/24/2021 1:01:09 PM **********
+Exception Type: MySql.Data.MySqlClient.MySqlException
+Exception: Unknown column 't2.state_group' in 'on clause'
+Source: student/monthly-attendance
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at I3SwebAPIv2.Controllers.StudentsV2Controller.Post_Student_Monthly_Attendance(StudentMonthlyAttendanceParam value)
+
+********** 12/24/2021 1:01:11 PM **********
+Exception Type: MySql.Data.MySqlClient.MySqlException
+Exception: Unknown column 't2.state_group' in 'on clause'
+Source: student/monthly-attendance
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at I3SwebAPIv2.Controllers.StudentsV2Controller.Post_Student_Monthly_Attendance(StudentMonthlyAttendanceParam value)
+
+********** 12/24/2021 1:01:56 PM **********
+Exception Type: MySql.Data.MySqlClient.MySqlException
+Exception: Unknown column 't2.state_group' in 'on clause'
+Source: student/monthly-attendance
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at I3SwebAPIv2.Controllers.StudentsV2Controller.Post_Student_Monthly_Attendance(StudentMonthlyAttendanceParam value)
+
+********** 12/24/2021 1:01:58 PM **********
+Exception Type: MySql.Data.MySqlClient.MySqlException
+Exception: Unknown column 't2.state_group' in 'on clause'
+Source: student/monthly-attendance
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at I3SwebAPIv2.Controllers.StudentsV2Controller.Post_Student_Monthly_Attendance(StudentMonthlyAttendanceParam value)
+
+********** 12/24/2021 1:02:01 PM **********
+Exception Type: MySql.Data.MySqlClient.MySqlException
+Exception: Unknown column 't2.state_group' in 'on clause'
+Source: student/monthly-attendance
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at I3SwebAPIv2.Controllers.StudentsV2Controller.Post_Student_Monthly_Attendance(StudentMonthlyAttendanceParam value)
+
+********** 12/24/2021 1:16:34 PM **********
+Exception Type: MySql.Data.MySqlClient.MySqlException
+Exception: Unknown column 't2.state_group' in 'on clause'
+Source: student/monthly-attendance
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at I3SwebAPIv2.Controllers.StudentsV2Controller.Post_Student_Monthly_Attendance(StudentMonthlyAttendanceParam value)
+
+********** 12/24/2021 2:04:06 PM **********
+Exception Type: MySql.Data.MySqlClient.MySqlException
+Exception: Unknown column 't2.state_group' in 'on clause'
+Source: student/daily-attendance
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at I3SwebAPIv2.Controllers.StudentsV2Controller.Post_Student_Daily_Attendance(StudentDailyAttendanceParam value)
+
+********** 12/24/2021 2:04:08 PM **********
+Exception Type: MySql.Data.MySqlClient.MySqlException
+Exception: Unknown column 't2.state_group' in 'on clause'
+Source: student/daily-attendance
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at I3SwebAPIv2.Controllers.StudentsV2Controller.Post_Student_Daily_Attendance(StudentDailyAttendanceParam value)
+
+********** 12/24/2021 2:04:10 PM **********
+Exception Type: MySql.Data.MySqlClient.MySqlException
+Exception: Unknown column 't2.state_group' in 'on clause'
+Source: student/daily-attendance
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at I3SwebAPIv2.Controllers.StudentsV2Controller.Post_Student_Daily_Attendance(StudentDailyAttendanceParam value)
+
+********** 12/24/2021 2:04:11 PM **********
+Exception Type: MySql.Data.MySqlClient.MySqlException
+Exception: Unknown column 't2.state_group' in 'on clause'
+Source: student/daily-attendance
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at I3SwebAPIv2.Controllers.StudentsV2Controller.Post_Student_Daily_Attendance(StudentDailyAttendanceParam value)
+
+********** 12/24/2021 2:04:11 PM **********
+Exception Type: MySql.Data.MySqlClient.MySqlException
+Exception: Unknown column 't2.state_group' in 'on clause'
+Source: student/daily-attendance
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at I3SwebAPIv2.Controllers.StudentsV2Controller.Post_Student_Daily_Attendance(StudentDailyAttendanceParam value)
+
+********** 12/24/2021 2:04:12 PM **********
+Exception Type: MySql.Data.MySqlClient.MySqlException
+Exception: Unknown column 't2.state_group' in 'on clause'
+Source: student/daily-attendance
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at I3SwebAPIv2.Controllers.StudentsV2Controller.Post_Student_Daily_Attendance(StudentDailyAttendanceParam value)
+
+********** 12/24/2021 2:04:13 PM **********
+Exception Type: MySql.Data.MySqlClient.MySqlException
+Exception: Unknown column 't2.state_group' in 'on clause'
+Source: student/daily-attendance
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at I3SwebAPIv2.Controllers.StudentsV2Controller.Post_Student_Daily_Attendance(StudentDailyAttendanceParam value)
+
+********** 12/24/2021 2:04:13 PM **********
+Exception Type: MySql.Data.MySqlClient.MySqlException
+Exception: Unknown column 't2.state_group' in 'on clause'
+Source: student/daily-attendance
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at I3SwebAPIv2.Controllers.StudentsV2Controller.Post_Student_Daily_Attendance(StudentDailyAttendanceParam value)
+
+********** 12/24/2021 2:04:14 PM **********
+Exception Type: MySql.Data.MySqlClient.MySqlException
+Exception: Unknown column 't2.state_group' in 'on clause'
+Source: student/daily-attendance
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at I3SwebAPIv2.Controllers.StudentsV2Controller.Post_Student_Daily_Attendance(StudentDailyAttendanceParam value)
+
+********** 12/24/2021 2:04:15 PM **********
+Exception Type: MySql.Data.MySqlClient.MySqlException
+Exception: Unknown column 't2.state_group' in 'on clause'
+Source: student/daily-attendance
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at I3SwebAPIv2.Controllers.StudentsV2Controller.Post_Student_Daily_Attendance(StudentDailyAttendanceParam value)
+
+********** 12/24/2021 2:04:15 PM **********
+Exception Type: MySql.Data.MySqlClient.MySqlException
+Exception: Unknown column 't2.state_group' in 'on clause'
+Source: student/daily-attendance
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at I3SwebAPIv2.Controllers.StudentsV2Controller.Post_Student_Daily_Attendance(StudentDailyAttendanceParam value)
+
+********** 12/24/2021 2:04:18 PM **********
+Exception Type: MySql.Data.MySqlClient.MySqlException
+Exception: Unknown column 't2.state_group' in 'on clause'
+Source: student/daily-attendance
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at I3SwebAPIv2.Controllers.StudentsV2Controller.Post_Student_Daily_Attendance(StudentDailyAttendanceParam value)
+
+********** 12/24/2021 2:04:19 PM **********
+Exception Type: MySql.Data.MySqlClient.MySqlException
+Exception: Unknown column 't2.state_group' in 'on clause'
+Source: student/daily-attendance
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at I3SwebAPIv2.Controllers.StudentsV2Controller.Post_Student_Daily_Attendance(StudentDailyAttendanceParam value)
+
+********** 12/24/2021 2:04:19 PM **********
+Exception Type: MySql.Data.MySqlClient.MySqlException
+Exception: Unknown column 't2.state_group' in 'on clause'
+Source: student/daily-attendance
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at I3SwebAPIv2.Controllers.StudentsV2Controller.Post_Student_Daily_Attendance(StudentDailyAttendanceParam value)
+
+********** 12/24/2021 2:04:20 PM **********
+Exception Type: MySql.Data.MySqlClient.MySqlException
+Exception: Unknown column 't2.state_group' in 'on clause'
+Source: student/daily-attendance
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at I3SwebAPIv2.Controllers.StudentsV2Controller.Post_Student_Daily_Attendance(StudentDailyAttendanceParam value)
+
+********** 12/24/2021 2:04:20 PM **********
+Exception Type: MySql.Data.MySqlClient.MySqlException
+Exception: Unknown column 't2.state_group' in 'on clause'
+Source: student/daily-attendance
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at I3SwebAPIv2.Controllers.StudentsV2Controller.Post_Student_Daily_Attendance(StudentDailyAttendanceParam value)
+
+********** 12/24/2021 2:04:25 PM **********
+Exception Type: MySql.Data.MySqlClient.MySqlException
+Exception: Unknown column 't2.state_group' in 'on clause'
+Source: student/daily-attendance
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at I3SwebAPIv2.Controllers.StudentsV2Controller.Post_Student_Daily_Attendance(StudentDailyAttendanceParam value)
+
+********** 12/24/2021 2:04:25 PM **********
+Exception Type: MySql.Data.MySqlClient.MySqlException
+Exception: Unknown column 't2.state_group' in 'on clause'
+Source: student/daily-attendance
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at I3SwebAPIv2.Controllers.StudentsV2Controller.Post_Student_Daily_Attendance(StudentDailyAttendanceParam value)
+
+********** 12/24/2021 2:04:30 PM **********
+Exception Type: MySql.Data.MySqlClient.MySqlException
+Exception: Unknown column 't2.state_group' in 'on clause'
+Source: student/daily-attendance
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at I3SwebAPIv2.Controllers.StudentsV2Controller.Post_Student_Daily_Attendance(StudentDailyAttendanceParam value)
+
+********** 12/24/2021 2:04:38 PM **********
+Exception Type: MySql.Data.MySqlClient.MySqlException
+Exception: Unknown column 't2.state_group' in 'on clause'
+Source: student/daily-attendance
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at I3SwebAPIv2.Controllers.StudentsV2Controller.Post_Student_Daily_Attendance(StudentDailyAttendanceParam value)
+
+********** 1/4/2022 1:02:01 PM **********
+Exception Type: MySql.Data.MySqlClient.MySqlException
+Exception: Data truncated for column 'id_number' at row 1
+Source: user/upload-image
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at I3SwebAPIv2.Controllers.UsersV2Controller.Post_User_Upload_Image(String culture, UploadPhotoParam value)
+
+********** 1/4/2022 1:03:01 PM **********
+Exception Type: MySql.Data.MySqlClient.MySqlException
+Exception: Data truncated for column 'id_number' at row 1
+Source: user/upload-image
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at I3SwebAPIv2.Controllers.UsersV2Controller.Post_User_Upload_Image(String culture, UploadPhotoParam value)
+
+********** 1/4/2022 1:11:30 PM **********
+Exception Type: MySql.Data.MySqlClient.MySqlException
+Exception: Field 'create_at' doesn't have a default value
+Source: user/upload-image
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at I3SwebAPIv2.Controllers.UsersV2Controller.Post_User_Upload_Image(String culture, UploadPhotoParam value)
+
+********** 1/10/2022 4:06:47 PM **********
+Exception Type: MySql.Data.MySqlClient.MySqlException
+Exception: Unknown column 'class_id' in 'where clause'
+Source: staff/update-student-attendance
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at I3SwebAPIv2.Controllers.StaffsV2Controller.Post_Staff_Update_Student_Attendance(String culture, UpdateStudentAttendanceParam value) in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\StaffsV2Controller.cs:line 1977
+
+********** 1/10/2022 4:07:10 PM **********
+Exception Type: MySql.Data.MySqlClient.MySqlException
+Exception: Unknown column 'class_id' in 'where clause'
+Source: staff/update-student-attendance
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at I3SwebAPIv2.Controllers.StaffsV2Controller.Post_Staff_Update_Student_Attendance(String culture, UpdateStudentAttendanceParam value) in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\StaffsV2Controller.cs:line 1977
+
+********** 1/25/2022 10:52:10 AM **********
+Exception Type: System.ArgumentException
+Exception: Parameter 'p_mpay_uid' not found in the collection.
+Source: parent/register-student
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlParameterCollection.GetParameterFlexible(String parameterName, Boolean throwOnNotFound)
+   at MySql.Data.MySqlClient.StoredProcedure.GetAndFixParameter(String spName, MySqlSchemaRow param, Boolean realAsFloat, MySqlParameter returnParameter)
+   at MySql.Data.MySqlClient.StoredProcedure.CheckParameters(String spName)
+   at MySql.Data.MySqlClient.StoredProcedure.Resolve(Boolean preparing)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at I3SwebAPIv2.Controllers.ParentsV2Controller.Post_Parent_Create_Student_Relationship(String culture, RegisterStudentParam value) in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\ParentsV2Controller.cs:line 487
+
+********** 1/25/2022 10:52:21 AM **********
+Exception Type: System.ArgumentException
+Exception: Parameter 'p_mpay_uid' not found in the collection.
+Source: parent/register-student
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlParameterCollection.GetParameterFlexible(String parameterName, Boolean throwOnNotFound)
+   at MySql.Data.MySqlClient.StoredProcedure.GetAndFixParameter(String spName, MySqlSchemaRow param, Boolean realAsFloat, MySqlParameter returnParameter)
+   at MySql.Data.MySqlClient.StoredProcedure.CheckParameters(String spName)
+   at MySql.Data.MySqlClient.StoredProcedure.Resolve(Boolean preparing)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at I3SwebAPIv2.Controllers.ParentsV2Controller.Post_Parent_Create_Student_Relationship(String culture, RegisterStudentParam value) in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\ParentsV2Controller.cs:line 487
+
+********** 1/25/2022 10:52:55 AM **********
+Exception Type: System.ArgumentException
+Exception: Parameter 'p_mpay_uid' not found in the collection.
+Source: parent/register-student
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlParameterCollection.GetParameterFlexible(String parameterName, Boolean throwOnNotFound)
+   at MySql.Data.MySqlClient.StoredProcedure.GetAndFixParameter(String spName, MySqlSchemaRow param, Boolean realAsFloat, MySqlParameter returnParameter)
+   at MySql.Data.MySqlClient.StoredProcedure.CheckParameters(String spName)
+   at MySql.Data.MySqlClient.StoredProcedure.Resolve(Boolean preparing)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at I3SwebAPIv2.Controllers.ParentsV2Controller.Post_Parent_Create_Student_Relationship(String culture, RegisterStudentParam value) in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\ParentsV2Controller.cs:line 487
+
+********** 1/25/2022 10:53:06 AM **********
+Exception Type: System.ArgumentException
+Exception: Parameter 'p_mpay_uid' not found in the collection.
+Source: parent/register-student
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlParameterCollection.GetParameterFlexible(String parameterName, Boolean throwOnNotFound)
+   at MySql.Data.MySqlClient.StoredProcedure.GetAndFixParameter(String spName, MySqlSchemaRow param, Boolean realAsFloat, MySqlParameter returnParameter)
+   at MySql.Data.MySqlClient.StoredProcedure.CheckParameters(String spName)
+   at MySql.Data.MySqlClient.StoredProcedure.Resolve(Boolean preparing)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at I3SwebAPIv2.Controllers.ParentsV2Controller.Post_Parent_Create_Student_Relationship(String culture, RegisterStudentParam value) in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\ParentsV2Controller.cs:line 487
+
+********** 1/25/2022 1:48:50 PM **********
+Exception Type: System.ArgumentException
+Exception: Parameter 'p_mpay_uid' not found in the collection.
+Source: parent/register-student
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlParameterCollection.GetParameterFlexible(String parameterName, Boolean throwOnNotFound)
+   at MySql.Data.MySqlClient.StoredProcedure.GetAndFixParameter(String spName, MySqlSchemaRow param, Boolean realAsFloat, MySqlParameter returnParameter)
+   at MySql.Data.MySqlClient.StoredProcedure.CheckParameters(String spName)
+   at MySql.Data.MySqlClient.StoredProcedure.Resolve(Boolean preparing)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at I3SwebAPIv2.Controllers.ParentsV2Controller.Post_Parent_Create_Student_Relationship(String culture, RegisterStudentParam value) in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\ParentsV2Controller.cs:line 487
+
+********** 1/25/2022 1:48:58 PM **********
+Exception Type: System.ArgumentException
+Exception: Parameter 'p_mpay_uid' not found in the collection.
+Source: parent/register-student
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlParameterCollection.GetParameterFlexible(String parameterName, Boolean throwOnNotFound)
+   at MySql.Data.MySqlClient.StoredProcedure.GetAndFixParameter(String spName, MySqlSchemaRow param, Boolean realAsFloat, MySqlParameter returnParameter)
+   at MySql.Data.MySqlClient.StoredProcedure.CheckParameters(String spName)
+   at MySql.Data.MySqlClient.StoredProcedure.Resolve(Boolean preparing)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at I3SwebAPIv2.Controllers.ParentsV2Controller.Post_Parent_Create_Student_Relationship(String culture, RegisterStudentParam value) in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\ParentsV2Controller.cs:line 487
+
+********** 1/25/2022 1:49:09 PM **********
+Exception Type: System.ArgumentException
+Exception: Parameter 'p_mpay_uid' not found in the collection.
+Source: parent/register-student
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlParameterCollection.GetParameterFlexible(String parameterName, Boolean throwOnNotFound)
+   at MySql.Data.MySqlClient.StoredProcedure.GetAndFixParameter(String spName, MySqlSchemaRow param, Boolean realAsFloat, MySqlParameter returnParameter)
+   at MySql.Data.MySqlClient.StoredProcedure.CheckParameters(String spName)
+   at MySql.Data.MySqlClient.StoredProcedure.Resolve(Boolean preparing)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at I3SwebAPIv2.Controllers.ParentsV2Controller.Post_Parent_Create_Student_Relationship(String culture, RegisterStudentParam value) in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\ParentsV2Controller.cs:line 487
+
+********** 1/25/2022 3:51:57 PM **********
+Exception Type: System.ArgumentException
+Exception: Parameter 'p_mpay_uid' not found in the collection.
+Source: parent/register-student
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlParameterCollection.GetParameterFlexible(String parameterName, Boolean throwOnNotFound)
+   at MySql.Data.MySqlClient.StoredProcedure.GetAndFixParameter(String spName, MySqlSchemaRow param, Boolean realAsFloat, MySqlParameter returnParameter)
+   at MySql.Data.MySqlClient.StoredProcedure.CheckParameters(String spName)
+   at MySql.Data.MySqlClient.StoredProcedure.Resolve(Boolean preparing)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at I3SwebAPIv2.Controllers.ParentsV2Controller.Post_Parent_Create_Student_Relationship(String culture, RegisterStudentParam value) in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\ParentsV2Controller.cs:line 487
+
+********** 1/25/2022 8:01:09 PM **********
+Exception Type: System.ArgumentException
+Exception: Parameter 'p_mpay_uid' not found in the collection.
+Source: parent/register-student
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlParameterCollection.GetParameterFlexible(String parameterName, Boolean throwOnNotFound)
+   at MySql.Data.MySqlClient.StoredProcedure.GetAndFixParameter(String spName, MySqlSchemaRow param, Boolean realAsFloat, MySqlParameter returnParameter)
+   at MySql.Data.MySqlClient.StoredProcedure.CheckParameters(String spName)
+   at MySql.Data.MySqlClient.StoredProcedure.Resolve(Boolean preparing)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at I3SwebAPIv2.Controllers.ParentsV2Controller.Post_Parent_Create_Student_Relationship(String culture, RegisterStudentParam value) in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\ParentsV2Controller.cs:line 487
+
+********** 1/25/2022 8:01:12 PM **********
+Exception Type: System.ArgumentException
+Exception: Parameter 'p_mpay_uid' not found in the collection.
+Source: parent/register-student
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlParameterCollection.GetParameterFlexible(String parameterName, Boolean throwOnNotFound)
+   at MySql.Data.MySqlClient.StoredProcedure.GetAndFixParameter(String spName, MySqlSchemaRow param, Boolean realAsFloat, MySqlParameter returnParameter)
+   at MySql.Data.MySqlClient.StoredProcedure.CheckParameters(String spName)
+   at MySql.Data.MySqlClient.StoredProcedure.Resolve(Boolean preparing)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at I3SwebAPIv2.Controllers.ParentsV2Controller.Post_Parent_Create_Student_Relationship(String culture, RegisterStudentParam value) in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\ParentsV2Controller.cs:line 487
+
+********** 1/25/2022 8:01:19 PM **********
+Exception Type: System.ArgumentException
+Exception: Parameter 'p_mpay_uid' not found in the collection.
+Source: parent/register-student
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlParameterCollection.GetParameterFlexible(String parameterName, Boolean throwOnNotFound)
+   at MySql.Data.MySqlClient.StoredProcedure.GetAndFixParameter(String spName, MySqlSchemaRow param, Boolean realAsFloat, MySqlParameter returnParameter)
+   at MySql.Data.MySqlClient.StoredProcedure.CheckParameters(String spName)
+   at MySql.Data.MySqlClient.StoredProcedure.Resolve(Boolean preparing)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at I3SwebAPIv2.Controllers.ParentsV2Controller.Post_Parent_Create_Student_Relationship(String culture, RegisterStudentParam value) in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\ParentsV2Controller.cs:line 487
+
+********** 1/26/2022 2:09:49 PM **********
+Exception Type: System.ArgumentException
+Exception: Parameter 'TicketNo' not found in the collection.
+Source: report/customer-feedback
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlParameterCollection.GetParameterFlexible(String parameterName, Boolean throwOnNotFound)
+   at MySql.Data.MySqlClient.StoredProcedure.GetAndFixParameter(String spName, MySqlSchemaRow param, Boolean realAsFloat, MySqlParameter returnParameter)
+   at MySql.Data.MySqlClient.StoredProcedure.CheckParameters(String spName)
+   at MySql.Data.MySqlClient.StoredProcedure.Resolve(Boolean preparing)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at I3SwebAPIv2.Controllers.ReportV2Controller.Post_Report_Customer_Feedback(String culture, CustomerFeedbackRequest body) in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\ReportV2Controller.cs:line 655
+
+********** 1/26/2022 5:03:51 PM **********
+Exception Type: System.NullReferenceException
+Exception: Object reference not set to an instance of an object.
+Source: parent/register-student
+Stack Trace: 
+   at I3SwebAPIv2.Controllers.MPayV2Controller.<Post_MPay_Add_Virtual_Balance>d__13.MoveNext() in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\MPayV2Controller.cs:line 681
+
+********** 1/26/2022 5:08:18 PM **********
+Exception Type: System.NullReferenceException
+Exception: Object reference not set to an instance of an object.
+Source: parent/register-student
+Stack Trace: 
+   at I3SwebAPIv2.Controllers.MPayV2Controller.<Post_MPay_Add_Virtual_Balance>d__13.MoveNext() in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\MPayV2Controller.cs:line 681
+
+********** 1/28/2022 12:03:44 PM **********
+Exception Type: MySql.Data.MySqlClient.MySqlException
+Exception: Column 'masked_cardno' cannot be null
+Source: mpay/transaction
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at I3SwebAPIv2.Controllers.MPayV2Controller.Post_MPay_Callback_Transaction(AccountTransactionParam value) in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\MPayV2Controller.cs:line 1937
+
+********** 1/31/2022 10:13:00 AM **********
+Exception Type: MySql.Data.MySqlClient.MySqlException
+Exception: Column 'merchant_name' cannot be null
+Source: mpay/transaction
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at I3SwebAPIv2.Controllers.MPayV2Controller.Post_MPay_Callback_Transaction(AccountTransactionParam value) in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\MPayV2Controller.cs:line 1938
+
+********** 1/31/2022 5:10:01 PM **********
+Exception Type: System.Exception
+Exception: The cipherText input parameter is not base64 encoded
+Source: mpay/purchase
+Stack Trace: 
+   at i3sAuth.Rijndael.DecryptRijndael(String cipherText, String salt) in D:\i3s\i3sAuth\i3sAuth\AuthClass.cs:line 76
+   at I3SwebAPIv2.Controllers.MPayV2Controller.<Post_MPay_Purchase>d__19.MoveNext() in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\MPayV2Controller.cs:line 1634
+
+********** 1/31/2022 5:11:25 PM **********
+Exception Type: System.Exception
+Exception: The cipherText input parameter is not base64 encoded
+Source: mpay/purchase
+Stack Trace: 
+   at i3sAuth.Rijndael.DecryptRijndael(String cipherText, String salt) in D:\i3s\i3sAuth\i3sAuth\AuthClass.cs:line 76
+   at I3SwebAPIv2.Controllers.MPayV2Controller.<Post_MPay_Purchase>d__19.MoveNext() in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\MPayV2Controller.cs:line 1634
+
+********** 2/8/2022 9:44:35 AM **********
+Exception Type: System.NullReferenceException
+Exception: Object reference not set to an instance of an object.
+Source: mpay/purchase
+Stack Trace: 
+   at I3SwebAPIv2.Controllers.MPayV2Controller.<Post_MPay_Purchase>d__20.MoveNext() in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\MPayV2Controller.cs:line 2014
+
+********** 2/8/2022 9:46:04 AM **********
+Exception Type: System.NullReferenceException
+Exception: Object reference not set to an instance of an object.
+Source: mpay/purchase
+Stack Trace: 
+   at I3SwebAPIv2.Controllers.MPayV2Controller.<Post_MPay_Purchase>d__20.MoveNext() in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\MPayV2Controller.cs:line 2014
+
+********** 2/8/2022 3:42:51 PM **********
+Exception Type: MySql.Data.MySqlClient.MySqlException
+Exception: Column 'notify_type' cannot be null
+Source: mpay/transaction
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at I3SwebAPIv2.Controllers.MPayV2Controller.Post_MPay_Callback_Transaction(AccountTransactionParam value) in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\MPayV2Controller.cs:line 2180
+
+********** 2/8/2022 3:43:08 PM **********
+Exception Type: MySql.Data.MySqlClient.MySqlException
+Exception: Column 'notify_type' cannot be null
+Source: mpay/transaction
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at I3SwebAPIv2.Controllers.MPayV2Controller.Post_MPay_Callback_Transaction(AccountTransactionParam value) in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\MPayV2Controller.cs:line 2180
+
+********** 2/8/2022 3:43:27 PM **********
+Exception Type: MySql.Data.MySqlClient.MySqlException
+Exception: Column 'notify_type' cannot be null
+Source: mpay/transaction
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at I3SwebAPIv2.Controllers.MPayV2Controller.Post_MPay_Callback_Transaction(AccountTransactionParam value) in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\MPayV2Controller.cs:line 2180
+
+********** 2/8/2022 3:44:32 PM **********
+Exception Type: MySql.Data.MySqlClient.MySqlException
+Exception: Column 'notify_type' cannot be null
+Source: mpay/transaction
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at I3SwebAPIv2.Controllers.MPayV2Controller.Post_MPay_Callback_Transaction(AccountTransactionParam value) in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\MPayV2Controller.cs:line 2180
+
+********** 2/9/2022 2:17:01 AM **********
+Inner Exception Type: System.IO.IOException
+Inner Exception: Unable to read data from the transport connection: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+Inner Source: System
+Inner Stack Trace: 
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at MySql.Data.MySqlClient.TimedStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at MySql.Data.MySqlClient.MySqlStream.ReadFully(Stream stream, Byte[] buffer, Int32 offset, Int32 count)
+   at MySql.Data.MySqlClient.MySqlStream.LoadPacket()
+Exception Type: MySql.Data.MySqlClient.MySqlException
+Exception: Reading from the stream has failed.
+Source: user/update-device-token
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlStream.LoadPacket()
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at I3SwebAPIv2.Controllers.UsersV2Controller.Post_User_Update_Device_Token(UpdateDeviceToken value) in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\UsersV2Controller.cs:line 1250
+
+********** 2/9/2022 2:17:18 AM **********
+Inner Exception Type: System.IO.IOException
+Inner Exception: Unable to read data from the transport connection: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+Inner Source: System
+Inner Stack Trace: 
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at MySql.Data.MySqlClient.TimedStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at MySql.Data.MySqlClient.MySqlStream.ReadFully(Stream stream, Byte[] buffer, Int32 offset, Int32 count)
+   at MySql.Data.MySqlClient.MySqlStream.LoadPacket()
+Exception Type: MySql.Data.MySqlClient.MySqlException
+Exception: Reading from the stream has failed.
+Source: parent/profile
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlStream.LoadPacket()
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at I3SwebAPIv2.Controllers.ParentsV2Controller.Post_Parent_Profile(ProfileParam value) in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\ParentsV2Controller.cs:line 44
+
+********** 2/9/2022 2:39:08 AM **********
+Inner Exception Type: MySql.Data.MySqlClient.MySqlException
+Inner Exception: Fatal error encountered attempting to read the resultset.
+Inner Source: MySql.Data
+Inner Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+Exception Type: MySql.Data.MySqlClient.MySqlException
+Exception: Fatal error encountered during command execution.
+Source: parent/school-relationship
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at I3SwebAPIv2.Controllers.ParentsV2Controller.Post_Parent_School_Relationship(ParentParam value) in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\ParentsV2Controller.cs:line 147
+
+********** 2/9/2022 2:39:10 AM **********
+Inner Exception Type: MySql.Data.MySqlClient.MySqlException
+Inner Exception: Fatal error encountered attempting to read the resultset.
+Inner Source: MySql.Data
+Inner Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+Exception Type: MySql.Data.MySqlClient.MySqlException
+Exception: Fatal error encountered during command execution.
+Source: purchase/cart-count
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at I3SwebAPIv2.Controllers.PurchaseV2Controller.Post_Purchase_Order_Cart_Count(CartCountParam value) in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\PurchaseV2Controller.cs:line 536
+
+********** 2/9/2022 2:46:36 AM **********
+Inner Exception Type: System.IO.IOException
+Inner Exception: Unable to read data from the transport connection: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+Inner Source: System
+Inner Stack Trace: 
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at MySql.Data.MySqlClient.TimedStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at MySql.Data.MySqlClient.MySqlStream.ReadFully(Stream stream, Byte[] buffer, Int32 offset, Int32 count)
+   at MySql.Data.MySqlClient.MySqlStream.LoadPacket()
+Exception Type: MySql.Data.MySqlClient.MySqlException
+Exception: Reading from the stream has failed.
+Source: user/update-device-token
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlStream.LoadPacket()
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at I3SwebAPIv2.Controllers.UsersV2Controller.Post_User_Update_Device_Token(UpdateDeviceToken value) in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\UsersV2Controller.cs:line 1250
+
+********** 2/9/2022 2:46:53 AM **********
+Inner Exception Type: System.IO.IOException
+Inner Exception: Unable to read data from the transport connection: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+Inner Source: System
+Inner Stack Trace: 
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at MySql.Data.MySqlClient.TimedStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at MySql.Data.MySqlClient.MySqlStream.ReadFully(Stream stream, Byte[] buffer, Int32 offset, Int32 count)
+   at MySql.Data.MySqlClient.MySqlStream.LoadPacket()
+Exception Type: MySql.Data.MySqlClient.MySqlException
+Exception: Reading from the stream has failed.
+Source: parent/profile
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlStream.LoadPacket()
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at I3SwebAPIv2.Controllers.ParentsV2Controller.Post_Parent_Profile(ProfileParam value) in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\ParentsV2Controller.cs:line 44
+
+********** 2/9/2022 4:25:29 AM **********
+Exception Type: System.InvalidCastException
+Exception: Object cannot be cast from DBNull to other types.
+Source: school/merchant
+Stack Trace: 
+   at System.DBNull.System.IConvertible.ToInt16(IFormatProvider provider)
+   at I3SwebAPIv2.Controllers.SchoolsV2Controller.Post_School_Merchant(SchoolMerchantParam value) in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\SchoolsV2Controller.cs:line 225
+
+********** 2/9/2022 4:36:53 AM **********
+Exception Type: System.InvalidCastException
+Exception: Object cannot be cast from DBNull to other types.
+Source: school/merchant
+Stack Trace: 
+   at System.DBNull.System.IConvertible.ToInt16(IFormatProvider provider)
+   at I3SwebAPIv2.Controllers.SchoolsV2Controller.Post_School_Merchant(SchoolMerchantParam value) in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\SchoolsV2Controller.cs:line 225
+
+********** 2/9/2022 4:38:08 AM **********
+Exception Type: System.InvalidCastException
+Exception: Object cannot be cast from DBNull to other types.
+Source: school/merchant
+Stack Trace: 
+   at System.DBNull.System.IConvertible.ToInt16(IFormatProvider provider)
+   at I3SwebAPIv2.Controllers.SchoolsV2Controller.Post_School_Merchant(SchoolMerchantParam value) in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\SchoolsV2Controller.cs:line 225
+
+********** 2/9/2022 4:38:14 AM **********
+Exception Type: System.InvalidCastException
+Exception: Object cannot be cast from DBNull to other types.
+Source: school/merchant
+Stack Trace: 
+   at System.DBNull.System.IConvertible.ToInt16(IFormatProvider provider)
+   at I3SwebAPIv2.Controllers.SchoolsV2Controller.Post_School_Merchant(SchoolMerchantParam value) in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\SchoolsV2Controller.cs:line 225
+
+********** 2/9/2022 4:38:46 AM **********
+Exception Type: System.InvalidCastException
+Exception: Object cannot be cast from DBNull to other types.
+Source: school/merchant
+Stack Trace: 
+   at System.DBNull.System.IConvertible.ToInt16(IFormatProvider provider)
+   at I3SwebAPIv2.Controllers.SchoolsV2Controller.Post_School_Merchant(SchoolMerchantParam value) in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\SchoolsV2Controller.cs:line 225
+
+********** 2/9/2022 4:38:52 AM **********
+Exception Type: System.InvalidCastException
+Exception: Object cannot be cast from DBNull to other types.
+Source: school/merchant
+Stack Trace: 
+   at System.DBNull.System.IConvertible.ToInt16(IFormatProvider provider)
+   at I3SwebAPIv2.Controllers.SchoolsV2Controller.Post_School_Merchant(SchoolMerchantParam value) in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\SchoolsV2Controller.cs:line 225
+
+********** 2/9/2022 4:40:00 AM **********
+Exception Type: System.InvalidCastException
+Exception: Object cannot be cast from DBNull to other types.
+Source: school/merchant
+Stack Trace: 
+   at System.DBNull.System.IConvertible.ToInt16(IFormatProvider provider)
+   at I3SwebAPIv2.Controllers.SchoolsV2Controller.Post_School_Merchant(SchoolMerchantParam value) in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\SchoolsV2Controller.cs:line 225
+
+********** 2/9/2022 4:42:39 AM **********
+Exception Type: System.InvalidCastException
+Exception: Object cannot be cast from DBNull to other types.
+Source: school/merchant
+Stack Trace: 
+   at System.DBNull.System.IConvertible.ToInt16(IFormatProvider provider)
+   at I3SwebAPIv2.Controllers.SchoolsV2Controller.Post_School_Merchant(SchoolMerchantParam value) in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\SchoolsV2Controller.cs:line 225
+
+********** 2/9/2022 4:43:21 AM **********
+Exception Type: System.InvalidCastException
+Exception: Object cannot be cast from DBNull to other types.
+Source: school/merchant
+Stack Trace: 
+   at System.DBNull.System.IConvertible.ToInt16(IFormatProvider provider)
+   at I3SwebAPIv2.Controllers.SchoolsV2Controller.Post_School_Merchant(SchoolMerchantParam value) in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\SchoolsV2Controller.cs:line 225
+
+********** 2/9/2022 5:04:36 AM **********
+Exception Type: MySql.Data.MySqlClient.MySqlException
+Exception: Result consisted of more than one row
+Source: report/customer-feedback
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at I3SwebAPIv2.Controllers.ReportV2Controller.Post_Report_Customer_Feedback(String culture, CustomerFeedbackRequest body) in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\ReportV2Controller.cs:line 659
+
+********** 2/9/2022 2:15:24 PM **********
+Inner Exception Type: System.Net.WebException
+Inner Exception: Unable to connect to the remote server
+Inner Source: System
+Inner Stack Trace: 
+   at System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext& context)
+   at System.Net.Http.HttpClientHandler.GetRequestStreamCallback(IAsyncResult ar)
+Exception Type: System.Net.Http.HttpRequestException
+Exception: An error occurred while sending the request.
+Source: mpay/transfer
+Stack Trace: 
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at I3SwebAPIv2.Class.MPayWallet.<PostFundTransfer>d__19.MoveNext() in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Class\MPayWallet.cs:line 448
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at I3SwebAPIv2.Controllers.MPayV2Controller.<Post_MPay_Fund_Transfer>d__16.MoveNext() in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\MPayV2Controller.cs:line 1196
+
+********** 2/9/2022 2:16:29 PM **********
+Inner Exception Type: System.Net.WebException
+Inner Exception: Unable to connect to the remote server
+Inner Source: System
+Inner Stack Trace: 
+   at System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext& context)
+   at System.Net.Http.HttpClientHandler.GetRequestStreamCallback(IAsyncResult ar)
+Exception Type: System.Net.Http.HttpRequestException
+Exception: An error occurred while sending the request.
+Source: mpay/transfer
+Stack Trace: 
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at I3SwebAPIv2.Class.MPayWallet.<PostFundTransfer>d__19.MoveNext() in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Class\MPayWallet.cs:line 448
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at I3SwebAPIv2.Controllers.MPayV2Controller.<Post_MPay_Fund_Transfer>d__16.MoveNext() in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\MPayV2Controller.cs:line 1196
+
+********** 3/3/2022 4:28:48 PM **********
+Exception Type: System.UriFormatException
+Exception: Invalid URI: The Uri string is too long.
+Source: user/verify-account
+Stack Trace: 
+   at System.UriHelper.EscapeString(String input, Int32 start, Int32 end, Char[] dest, Int32& destPos, Boolean isUriString, Char force1, Char force2, Char rsvd)
+   at System.Uri.EscapeDataString(String stringToEscape)
+   at System.Net.Http.FormUrlEncodedContent.Encode(String data)
+   at System.Net.Http.FormUrlEncodedContent.GetContentByteArray(IEnumerable`1 nameValueCollection)
+   at System.Net.Http.FormUrlEncodedContent..ctor(IEnumerable`1 nameValueCollection)
+   at I3SwebAPIv2.Class.MPayWallet.<PostAccountRegistration>d__12.MoveNext() in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Class\MPayWallet.cs:line 73
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at I3SwebAPIv2.Controllers.UsersV2Controller.<Post_User_Verify_Account>d__5.MoveNext() in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\UsersV2Controller.cs:line 671
+
+********** 3/3/2022 4:30:24 PM **********
+Exception Type: System.UriFormatException
+Exception: Invalid URI: The Uri string is too long.
+Source: user/verify-account
+Stack Trace: 
+   at System.UriHelper.EscapeString(String input, Int32 start, Int32 end, Char[] dest, Int32& destPos, Boolean isUriString, Char force1, Char force2, Char rsvd)
+   at System.Uri.EscapeDataString(String stringToEscape)
+   at System.Net.Http.FormUrlEncodedContent.Encode(String data)
+   at System.Net.Http.FormUrlEncodedContent.GetContentByteArray(IEnumerable`1 nameValueCollection)
+   at System.Net.Http.FormUrlEncodedContent..ctor(IEnumerable`1 nameValueCollection)
+   at I3SwebAPIv2.Class.MPayWallet.<PostAccountRegistration>d__12.MoveNext() in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Class\MPayWallet.cs:line 73
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at I3SwebAPIv2.Controllers.UsersV2Controller.<Post_User_Verify_Account>d__5.MoveNext() in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\UsersV2Controller.cs:line 671
+
+********** 3/3/2022 4:32:12 PM **********
+Exception Type: System.UriFormatException
+Exception: Invalid URI: The Uri string is too long.
+Source: user/verify-account
+Stack Trace: 
+   at System.UriHelper.EscapeString(String input, Int32 start, Int32 end, Char[] dest, Int32& destPos, Boolean isUriString, Char force1, Char force2, Char rsvd)
+   at System.Uri.EscapeDataString(String stringToEscape)
+   at System.Net.Http.FormUrlEncodedContent.Encode(String data)
+   at System.Net.Http.FormUrlEncodedContent.GetContentByteArray(IEnumerable`1 nameValueCollection)
+   at System.Net.Http.FormUrlEncodedContent..ctor(IEnumerable`1 nameValueCollection)
+   at I3SwebAPIv2.Class.MPayWallet.<PostAccountRegistration>d__12.MoveNext() in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Class\MPayWallet.cs:line 73
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at I3SwebAPIv2.Controllers.UsersV2Controller.<Post_User_Verify_Account>d__5.MoveNext() in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\UsersV2Controller.cs:line 671
+
+********** 3/3/2022 4:37:08 PM **********
+Exception Type: System.UriFormatException
+Exception: Invalid URI: The Uri string is too long.
+Source: user/verify-account
+Stack Trace: 
+   at System.UriHelper.EscapeString(String input, Int32 start, Int32 end, Char[] dest, Int32& destPos, Boolean isUriString, Char force1, Char force2, Char rsvd)
+   at System.Uri.EscapeDataString(String stringToEscape)
+   at System.Net.Http.FormUrlEncodedContent.Encode(String data)
+   at System.Net.Http.FormUrlEncodedContent.GetContentByteArray(IEnumerable`1 nameValueCollection)
+   at System.Net.Http.FormUrlEncodedContent..ctor(IEnumerable`1 nameValueCollection)
+   at I3SwebAPIv2.Class.MPayWallet.<PostAccountRegistration>d__12.MoveNext() in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Class\MPayWallet.cs:line 73
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at I3SwebAPIv2.Controllers.UsersV2Controller.<Post_User_Verify_Account>d__5.MoveNext() in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\UsersV2Controller.cs:line 671
+
+********** 3/3/2022 4:37:57 PM **********
+Exception Type: System.UriFormatException
+Exception: Invalid URI: The Uri string is too long.
+Source: user/verify-account
+Stack Trace: 
+   at System.UriHelper.EscapeString(String input, Int32 start, Int32 end, Char[] dest, Int32& destPos, Boolean isUriString, Char force1, Char force2, Char rsvd)
+   at System.Uri.EscapeDataString(String stringToEscape)
+   at System.Net.Http.FormUrlEncodedContent.Encode(String data)
+   at System.Net.Http.FormUrlEncodedContent.GetContentByteArray(IEnumerable`1 nameValueCollection)
+   at System.Net.Http.FormUrlEncodedContent..ctor(IEnumerable`1 nameValueCollection)
+   at I3SwebAPIv2.Class.MPayWallet.<PostAccountRegistration>d__12.MoveNext() in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Class\MPayWallet.cs:line 73
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at I3SwebAPIv2.Controllers.UsersV2Controller.<Post_User_Verify_Account>d__5.MoveNext() in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\UsersV2Controller.cs:line 671
+
+********** 3/3/2022 4:48:45 PM **********
+Exception Type: Newtonsoft.Json.JsonReaderException
+Exception: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+Source: user/verify-account
+Stack Trace: 
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at I3SwebAPIv2.Controllers.UsersV2Controller.<Post_User_Verify_Account>d__5.MoveNext() in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\UsersV2Controller.cs:line 672
+
+********** 3/3/2022 4:52:21 PM **********
+Exception Type: Newtonsoft.Json.JsonReaderException
+Exception: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+Source: user/verify-account
+Stack Trace: 
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at I3SwebAPIv2.Controllers.UsersV2Controller.<Post_User_Verify_Account>d__5.MoveNext() in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\UsersV2Controller.cs:line 672
+
+********** 3/3/2022 5:01:16 PM **********
+Exception Type: Newtonsoft.Json.JsonReaderException
+Exception: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+Source: user/verify-account
+Stack Trace: 
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at I3SwebAPIv2.Controllers.UsersV2Controller.<Post_User_Verify_Account>d__5.MoveNext() in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\UsersV2Controller.cs:line 672
+
+********** 3/24/2022 10:54:33 PM **********
+Exception Type: MySql.Data.MySqlClient.MySqlException
+Exception: Incorrect integer value: '' for column 'p_wallet_id' at row 1
+Source: mpay/resubmit-kyc
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at I3SwebAPIv2.Controllers.MPayV2Controller.<Post_MPay_Account_Resubmit_KYC>d__11.MoveNext() in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\MPayV2Controller.cs:line 379
+
+********** 3/24/2022 11:02:32 PM **********
+Exception Type: System.NullReferenceException
+Exception: Object reference not set to an instance of an object.
+Source: mpay/resubmit-kyc
+Stack Trace: 
+   at I3SwebAPIv2.Class.MPayWallet.ConvertImageURLToBase64(String url) in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Class\MPayWallet.cs:line 701
+   at I3SwebAPIv2.Class.MPayWallet.<PostResubmitKYC>d__14.MoveNext() in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Class\MPayWallet.cs:line 230
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at I3SwebAPIv2.Controllers.MPayV2Controller.<Post_MPay_Account_Resubmit_KYC>d__11.MoveNext() in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\MPayV2Controller.cs:line 396
+
+********** 3/24/2022 11:26:08 PM **********
+Exception Type: System.UriFormatException
+Exception: Invalid URI: The Uri string is too long.
+Source: mpay/resubmit-kyc
+Stack Trace: 
+   at System.UriHelper.EscapeString(String input, Int32 start, Int32 end, Char[] dest, Int32& destPos, Boolean isUriString, Char force1, Char force2, Char rsvd)
+   at System.Uri.EscapeDataString(String stringToEscape)
+   at System.Net.Http.FormUrlEncodedContent.Encode(String data)
+   at System.Net.Http.FormUrlEncodedContent.GetContentByteArray(IEnumerable`1 nameValueCollection)
+   at System.Net.Http.FormUrlEncodedContent..ctor(IEnumerable`1 nameValueCollection)
+   at I3SwebAPIv2.Class.MPayWallet.<PostResubmitKYC>d__14.MoveNext() in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Class\MPayWallet.cs:line 242
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at I3SwebAPIv2.Controllers.MPayV2Controller.<Post_MPay_Account_Resubmit_KYC>d__11.MoveNext() in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\MPayV2Controller.cs:line 396
+
+********** 3/24/2022 11:26:59 PM **********
+Exception Type: System.UriFormatException
+Exception: Invalid URI: The Uri string is too long.
+Source: mpay/resubmit-kyc
+Stack Trace: 
+   at System.UriHelper.EscapeString(String input, Int32 start, Int32 end, Char[] dest, Int32& destPos, Boolean isUriString, Char force1, Char force2, Char rsvd)
+   at System.Uri.EscapeDataString(String stringToEscape)
+   at System.Net.Http.FormUrlEncodedContent.Encode(String data)
+   at System.Net.Http.FormUrlEncodedContent.GetContentByteArray(IEnumerable`1 nameValueCollection)
+   at System.Net.Http.FormUrlEncodedContent..ctor(IEnumerable`1 nameValueCollection)
+   at I3SwebAPIv2.Class.MPayWallet.<PostResubmitKYC>d__14.MoveNext() in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Class\MPayWallet.cs:line 242
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at I3SwebAPIv2.Controllers.MPayV2Controller.<Post_MPay_Account_Resubmit_KYC>d__11.MoveNext() in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\MPayV2Controller.cs:line 396
+
+********** 3/29/2022 5:54:28 PM **********
+Exception Type: System.ArgumentNullException
+Exception: Value cannot be null.
+Parameter name: text
+Source: mpay/add-virtual-balance
+Stack Trace: 
+   at i3sAuth.Rijndael.EncryptRijndael(String text, String salt) in D:\i3s\i3sAuth\i3sAuth\AuthClass.cs:line 32
+   at I3SwebAPIv2.Controllers.MPayV2Controller.<Post_MPay_Add_Virtual_Balance>d__15.MoveNext() in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\MPayV2Controller.cs:line 974
+
+********** 4/7/2022 9:54:09 AM **********
+Exception Type: MySql.Data.MySqlClient.MySqlException
+Exception: Field 'nationality_id' doesn't have a default value
+Source: account/register
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at I3SwebAPIv2.Controllers.AccountV2Controller.<Post_Account_Do_EKYC>d__2.MoveNext() in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\AccountV2Controller.cs:line 110
+
+********** 4/7/2022 9:55:51 AM **********
+Exception Type: MySql.Data.MySqlClient.MySqlException
+Exception: Field 'nationality_id' doesn't have a default value
+Source: account/register
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at I3SwebAPIv2.Controllers.AccountV2Controller.<Post_Account_Do_EKYC>d__2.MoveNext() in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\AccountV2Controller.cs:line 110
+
+********** 4/7/2022 9:56:57 AM **********
+Exception Type: System.FormatException
+Exception: Input string was not in a correct format.
+Source: account/register
+Stack Trace: 
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at MySql.Data.Types.MySqlInt16.MySql.Data.Types.IMySqlValue.ReadValue(MySqlPacket packet, Int64 length, Boolean nullVal)
+   at MySql.Data.MySqlClient.NativeDriver.ReadColumnValue(Int32 index, MySqlField field, IMySqlValue valObject)
+   at MySql.Data.MySqlClient.ResultSet.ReadColumnData(Boolean outputParms)
+   at MySql.Data.MySqlClient.ResultSet.NextRow(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlDataReader.Read()
+   at MySql.Data.MySqlClient.StoredProcedure.ProcessOutputParameters(MySqlDataReader reader)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at I3SwebAPIv2.Controllers.AccountV2Controller.<Post_Account_Do_EKYC>d__2.MoveNext() in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\AccountV2Controller.cs:line 110
+
+********** 4/7/2022 10:15:16 AM **********
+Exception Type: System.FormatException
+Exception: The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters. 
+Source: account/upload-image
+Stack Trace: 
+   at System.Convert.FromBase64_ComputeResultLength(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64String(String s)
+   at I3SwebAPIv2.Controllers.AccountV2Controller.Post_User_Upload_Image(String culture, UploadImageParam value) in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\AccountV2Controller.cs:line 274
+
+********** 4/7/2022 10:17:19 AM **********
+Exception Type: System.FormatException
+Exception: The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters. 
+Source: account/upload-image
+Stack Trace: 
+   at System.Convert.FromBase64_ComputeResultLength(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64String(String s)
+   at I3SwebAPIv2.Controllers.AccountV2Controller.Post_User_Upload_Image(String culture, UploadImageParam value) in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\AccountV2Controller.cs:line 274
+
+********** 4/7/2022 10:18:21 AM **********
+Exception Type: System.FormatException
+Exception: The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters. 
+Source: account/upload-image
+Stack Trace: 
+   at System.Convert.FromBase64_ComputeResultLength(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64String(String s)
+   at I3SwebAPIv2.Controllers.AccountV2Controller.Post_User_Upload_Image(String culture, UploadImageParam value) in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\AccountV2Controller.cs:line 274
+
+********** 4/7/2022 10:19:47 AM **********
+Exception Type: System.FormatException
+Exception: The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters. 
+Source: account/upload-image
+Stack Trace: 
+   at System.Convert.FromBase64_ComputeResultLength(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64String(String s)
+   at I3SwebAPIv2.Controllers.AccountV2Controller.Post_User_Upload_Image(String culture, UploadImageParam value) in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\AccountV2Controller.cs:line 274
+
+********** 4/7/2022 10:22:47 AM **********
+Exception Type: System.FormatException
+Exception: The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters. 
+Source: account/upload-image
+Stack Trace: 
+   at System.Convert.FromBase64_ComputeResultLength(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64String(String s)
+   at I3SwebAPIv2.Controllers.AccountV2Controller.Post_User_Upload_Image(String culture, UploadImageParam value) in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\AccountV2Controller.cs:line 274
+
+********** 4/7/2022 10:24:34 AM **********
+Exception Type: System.FormatException
+Exception: The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters. 
+Source: account/upload-image
+Stack Trace: 
+   at System.Convert.FromBase64_ComputeResultLength(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64String(String s)
+   at I3SwebAPIv2.Controllers.AccountV2Controller.Post_User_Upload_Image(String culture, UploadImageParam value) in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\AccountV2Controller.cs:line 274
+
+********** 4/7/2022 10:27:01 AM **********
+Exception Type: System.FormatException
+Exception: The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters. 
+Source: account/upload-image
+Stack Trace: 
+   at System.Convert.FromBase64_ComputeResultLength(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64String(String s)
+   at I3SwebAPIv2.Controllers.AccountV2Controller.Post_User_Upload_Image(String culture, UploadImageParam value) in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\AccountV2Controller.cs:line 274
+
+********** 4/11/2022 3:44:46 PM **********
+Exception Type: System.InvalidCastException
+Exception: Object cannot be cast from DBNull to other types.
+Source: purchase/cart
+Stack Trace: 
+   at System.DBNull.System.IConvertible.ToDecimal(IFormatProvider provider)
+   at I3SwebAPIv2.Controllers.PurchaseV2Controller.Post_Purchase_Order_Cart(OrderCartParam value) in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\PurchaseV2Controller.cs:line 1063
+
+********** 4/11/2022 3:45:38 PM **********
+Exception Type: System.InvalidCastException
+Exception: Object cannot be cast from DBNull to other types.
+Source: purchase/cart
+Stack Trace: 
+   at System.DBNull.System.IConvertible.ToDecimal(IFormatProvider provider)
+   at I3SwebAPIv2.Controllers.PurchaseV2Controller.Post_Purchase_Order_Cart(OrderCartParam value) in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\PurchaseV2Controller.cs:line 1063
+
+********** 4/11/2022 3:46:36 PM **********
+Exception Type: System.InvalidCastException
+Exception: Object cannot be cast from DBNull to other types.
+Source: purchase/cart
+Stack Trace: 
+   at System.DBNull.System.IConvertible.ToDecimal(IFormatProvider provider)
+   at I3SwebAPIv2.Controllers.PurchaseV2Controller.Post_Purchase_Order_Cart(OrderCartParam value) in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\PurchaseV2Controller.cs:line 1063
+
+********** 4/28/2022 2:43:37 PM **********
+Exception Type: MySql.Data.MySqlClient.MySqlException
+Exception: Parameter '@p_date_of_birth' has already been defined.
+Source: user/register
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlParameterCollection.InternalAdd(MySqlParameter value, Int32 index)
+   at MySql.Data.MySqlClient.MySqlParameterCollection.AddWithValue(String parameterName, Object value)
+   at I3SwebAPIv2.Controllers.AccountV2Controller.<Post_Account_Register>d__5.MoveNext() in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\AccountV2Controller.cs:line 273
+
+********** 4/28/2022 2:44:58 PM **********
+Exception Type: System.ArgumentNullException
+Exception: Value cannot be null.
+Parameter name: text
+Source: user/register
+Stack Trace: 
+   at i3sAuth.Rijndael.EncryptRijndael(String text, String salt) in D:\i3s\i3sAuth\i3sAuth\AuthClass.cs:line 32
+   at I3SwebAPIv2.Controllers.AccountV2Controller.<Post_Account_Register>d__5.MoveNext() in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\AccountV2Controller.cs:line 280
+
+********** 4/28/2022 2:46:52 PM **********
+Exception Type: System.ArgumentNullException
+Exception: Value cannot be null.
+Parameter name: text
+Source: user/register
+Stack Trace: 
+   at i3sAuth.Rijndael.EncryptRijndael(String text, String salt) in D:\i3s\i3sAuth\i3sAuth\AuthClass.cs:line 32
+   at I3SwebAPIv2.Controllers.AccountV2Controller.<Post_Account_Register>d__5.MoveNext() in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\AccountV2Controller.cs:line 280
+
+********** 4/28/2022 2:48:16 PM **********
+Exception Type: System.ArgumentNullException
+Exception: Value cannot be null.
+Parameter name: text
+Source: user/register
+Stack Trace: 
+   at i3sAuth.Rijndael.EncryptRijndael(String text, String salt) in D:\i3s\i3sAuth\i3sAuth\AuthClass.cs:line 32
+   at I3SwebAPIv2.Controllers.AccountV2Controller.<Post_Account_Register>d__5.MoveNext() in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\AccountV2Controller.cs:line 280
+
+********** 4/28/2022 2:50:25 PM **********
+Exception Type: System.ArgumentException
+Exception: Parameter 'p_mother_maiden_name' not found in the collection.
+Source: user/register
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlParameterCollection.GetParameterFlexible(String parameterName, Boolean throwOnNotFound)
+   at MySql.Data.MySqlClient.StoredProcedure.GetAndFixParameter(String spName, MySqlSchemaRow param, Boolean realAsFloat, MySqlParameter returnParameter)
+   at MySql.Data.MySqlClient.StoredProcedure.CheckParameters(String spName)
+   at MySql.Data.MySqlClient.StoredProcedure.Resolve(Boolean preparing)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at I3SwebAPIv2.Controllers.AccountV2Controller.<Post_Account_Register>d__5.MoveNext() in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\AccountV2Controller.cs:line 285
+
+********** 4/28/2022 2:55:14 PM **********
+Exception Type: MySql.Data.MySqlClient.MySqlException
+Exception: Incorrect integer value: '' for column 'p_state_id' at row 1
+Source: user/register
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at I3SwebAPIv2.Controllers.AccountV2Controller.<Post_Account_Register>d__5.MoveNext() in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\AccountV2Controller.cs:line 296
+
+********** 4/28/2022 2:56:35 PM **********
+Exception Type: MySql.Data.MySqlClient.MySqlException
+Exception: Column 'marketing_flag' cannot be null
+Source: user/register
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at I3SwebAPIv2.Controllers.AccountV2Controller.<Post_Account_Register>d__5.MoveNext() in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\AccountV2Controller.cs:line 296
+
+********** 5/16/2022 10:44:59 PM **********
+Exception Type: System.ArgumentNullException
+Exception: Value cannot be null.
+Parameter name: cipherText
+Source: mpay/purchase
+Stack Trace: 
+   at i3sAuth.Rijndael.DecryptRijndael(String cipherText, String salt) in D:\i3s\i3sAuth\i3sAuth\AuthClass.cs:line 71
+   at I3SwebAPIv2.Controllers.MPayV2Controller.<Post_MPay_Purchase>d__20.MoveNext() in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\MPayV2Controller.cs:line 1839
+
+********** 5/16/2022 10:47:46 PM **********
+Exception Type: System.ArgumentNullException
+Exception: Value cannot be null.
+Parameter name: cipherText
+Source: mpay/purchase
+Stack Trace: 
+   at i3sAuth.Rijndael.DecryptRijndael(String cipherText, String salt) in D:\i3s\i3sAuth\i3sAuth\AuthClass.cs:line 71
+   at I3SwebAPIv2.Controllers.MPayV2Controller.<Post_MPay_Purchase>d__20.MoveNext() in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\MPayV2Controller.cs:line 1839
+
+********** 5/16/2022 10:52:29 PM **********
+Exception Type: System.NullReferenceException
+Exception: Object reference not set to an instance of an object.
+Source: mpay/purchase
+Stack Trace: 
+   at I3SwebAPIv2.Controllers.MPayV2Controller.<Post_MPay_Purchase>d__20.MoveNext() in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\MPayV2Controller.cs:line 2031
+
+********** 5/16/2022 10:54:36 PM **********
+Exception Type: System.NullReferenceException
+Exception: Object reference not set to an instance of an object.
+Source: mpay/purchase
+Stack Trace: 
+   at I3SwebAPIv2.Controllers.MPayV2Controller.<Post_MPay_Purchase>d__20.MoveNext() in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\MPayV2Controller.cs:line 2031
+
+********** 5/16/2022 11:00:31 PM **********
+Exception Type: System.NullReferenceException
+Exception: Object reference not set to an instance of an object.
+Source: mpay/purchase
+Stack Trace: 
+   at I3SwebAPIv2.Controllers.MPayV2Controller.<Post_MPay_Purchase>d__20.MoveNext() in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\MPayV2Controller.cs:line 2031
+
+********** 6/10/2022 12:35:41 AM **********
+Exception Type: MySql.Data.MySqlClient.MySqlException
+Exception: Procedure or function '`sp_get_user_account_cs`' cannot be found in database '`emerging_i3s_db_v2`'. Verify that user 'emerging_sa'@'110.4.45.233' has enough privileges to execute.
+Source: info
+Stack Trace: 
+   at MySql.Data.MySqlClient.ProcedureCache.GetProcData(MySqlConnection connection, String spName)
+   at MySql.Data.MySqlClient.ProcedureCache.AddNew(MySqlConnection connection, String spName)
+   at MySql.Data.MySqlClient.ProcedureCache.GetProcedure(MySqlConnection conn, String spName, String cacheKey)
+   at MySql.Data.MySqlClient.StoredProcedure.CheckParameters(String spName)
+   at MySql.Data.MySqlClient.StoredProcedure.Resolve(Boolean preparing)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at I3SwebAPIv2.Controllers.AccountV2Controller.Post_Account_Info(AccountCSInfoParam value) in F:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\AccountV2Controller.cs:line 2611
+
+********** 6/29/2022 10:27:51 PM **********
+Exception Type: System.NullReferenceException
+Exception: Object reference not set to an instance of an object.
+Source: account/update-virtual-balance
+Stack Trace: 
+   at I3SwebAPIv2.Controllers.AccountV2Controller.<Post_Account_Update_Virtual_Balance>d__8.MoveNext() in F:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\AccountV2Controller.cs:line 669
+
+********** 6/29/2022 10:33:44 PM **********
+Exception Type: System.NullReferenceException
+Exception: Object reference not set to an instance of an object.
+Source: account/update-virtual-balance
+Stack Trace: 
+   at I3SwebAPIv2.Controllers.AccountV2Controller.<Post_Account_Update_Virtual_Balance>d__8.MoveNext() in F:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\AccountV2Controller.cs:line 669
+
+********** 7/4/2022 2:38:57 AM **********
+Exception Type: System.FormatException
+Exception: String was not recognized as a valid DateTime.
+Source: merchant/settlement-group
+Stack Trace: 
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at System.Convert.ToDateTime(String value, IFormatProvider provider)
+   at I3SwebAPIv2.Controllers.MerchantsV2Controller.Post_Merchant_Settlement_Group(OrderHistoryGroupParam value) in F:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\MerchantsV2Controller.cs:line 3664
+
+********** 7/4/2022 2:40:05 AM **********
+Exception Type: System.FormatException
+Exception: String was not recognized as a valid DateTime.
+Source: merchant/settlement-group
+Stack Trace: 
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at System.Convert.ToDateTime(String value, IFormatProvider provider)
+   at I3SwebAPIv2.Controllers.MerchantsV2Controller.Post_Merchant_Settlement_Group(OrderHistoryGroupParam value) in F:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\MerchantsV2Controller.cs:line 3664
+
+********** 7/4/2022 2:44:30 AM **********
+Exception Type: System.FormatException
+Exception: String was not recognized as a valid DateTime.
+Source: merchant/settlement-group
+Stack Trace: 
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at System.Convert.ToDateTime(String value, IFormatProvider provider)
+   at I3SwebAPIv2.Controllers.MerchantsV2Controller.Post_Merchant_Settlement_Group(OrderHistoryGroupParam value) in F:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\MerchantsV2Controller.cs:line 3664
+
+********** 7/4/2022 2:45:10 AM **********
+Exception Type: System.IndexOutOfRangeException
+Exception: Could not find specified column in results: receipt_date
+Source: merchant/settlement-group
+Stack Trace: 
+   at MySql.Data.MySqlClient.ResultSet.GetOrdinal(String name)
+   at MySql.Data.MySqlClient.MySqlDataReader.get_Item(String name)
+   at I3SwebAPIv2.Controllers.MerchantsV2Controller.Post_Merchant_Settlement_Group(OrderHistoryGroupParam value) in F:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\MerchantsV2Controller.cs:line 3664
+
+********** 7/4/2022 2:45:30 AM **********
+Exception Type: System.IndexOutOfRangeException
+Exception: Could not find specified column in results: receipt_date
+Source: merchant/settlement-group
+Stack Trace: 
+   at MySql.Data.MySqlClient.ResultSet.GetOrdinal(String name)
+   at MySql.Data.MySqlClient.MySqlDataReader.get_Item(String name)
+   at I3SwebAPIv2.Controllers.MerchantsV2Controller.Post_Merchant_Settlement_Group(OrderHistoryGroupParam value) in F:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\MerchantsV2Controller.cs:line 3664
+
+********** 7/4/2022 2:45:59 AM **********
+Exception Type: System.InvalidCastException
+Exception: Object cannot be cast from DBNull to other types.
+Source: merchant/settlement-group
+Stack Trace: 
+   at System.DBNull.System.IConvertible.ToDateTime(IFormatProvider provider)
+   at I3SwebAPIv2.Controllers.MerchantsV2Controller.Post_Merchant_Settlement_Group(OrderHistoryGroupParam value) in F:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\MerchantsV2Controller.cs:line 3664
+
+********** 8/3/2022 4:44:07 PM **********
+Exception Type: System.NullReferenceException
+Exception: Object reference not set to an instance of an object.
+Source: account/update-virtual-balance
+Stack Trace: 
+   at I3SwebAPIv2.Controllers.AccountV2Controller.<Post_Account_Update_Virtual_Balance>d__9.MoveNext() in F:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\AccountV2Controller.cs:line 671
+
+********** 8/3/2022 4:47:22 PM **********
+Exception Type: System.NullReferenceException
+Exception: Object reference not set to an instance of an object.
+Source: account/update-virtual-balance
+Stack Trace: 
+   at I3SwebAPIv2.Controllers.AccountV2Controller.<Post_Account_Update_Virtual_Balance>d__9.MoveNext() in F:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\AccountV2Controller.cs:line 671
+
+********** 8/3/2022 4:48:05 PM **********
+Exception Type: System.NullReferenceException
+Exception: Object reference not set to an instance of an object.
+Source: account/update-virtual-balance
+Stack Trace: 
+   at I3SwebAPIv2.Controllers.AccountV2Controller.<Post_Account_Update_Virtual_Balance>d__9.MoveNext() in F:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\AccountV2Controller.cs:line 671
+
+********** 8/3/2022 5:41:30 PM **********
+Exception Type: System.NullReferenceException
+Exception: Object reference not set to an instance of an object.
+Source: account/update-virtual-balance
+Stack Trace: 
+   at I3SwebAPIv2.Controllers.AccountV2Controller.<Post_Account_Update_Virtual_Balance>d__9.MoveNext() in F:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\AccountV2Controller.cs:line 671
+
+********** 9/22/2022 12:55:56 AM **********
+Exception Type: System.IndexOutOfRangeException
+Exception: Could not find specified column in results: tax_amount
+Source: wallet/transaction-master
+Stack Trace: 
+   at MySql.Data.MySqlClient.ResultSet.GetOrdinal(String name)
+   at MySql.Data.MySqlClient.MySqlDataReader.get_Item(String name)
+   at I3SwebAPIv2.Controllers.WalletV2Controller.Post_Wallet_Transaction_Master(WalletTransactionDetailParam value) in F:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\WalletV2Controller.cs:line 528
+
+********** 9/22/2022 11:49:26 AM **********
+Exception Type: System.NullReferenceException
+Exception: Object reference not set to an instance of an object.
+Source: purchase/order-history-total
+Stack Trace: 
+   at I3SwebAPIv2.Controllers.PurchaseV2Controller.Post_Purchase_Order_History_Total(OrderHistoryDetailParam value) in F:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\PurchaseV2Controller.cs:line 710
+
+********** 9/22/2022 11:54:37 AM **********
+Exception Type: System.NullReferenceException
+Exception: Object reference not set to an instance of an object.
+Source: purchase/order-history-total
+Stack Trace: 
+   at I3SwebAPIv2.Controllers.PurchaseV2Controller.Post_Purchase_Order_History_Total(OrderHistoryDetailParam value)
+
+********** 9/22/2022 11:56:45 AM **********
+Exception Type: System.NullReferenceException
+Exception: Object reference not set to an instance of an object.
+Source: purchase/order-history-total
+Stack Trace: 
+   at I3SwebAPIv2.Controllers.PurchaseV2Controller.Post_Purchase_Order_History_Total(OrderHistoryDetailParam value) in F:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\PurchaseV2Controller.cs:line 701
+
+********** 10/10/2022 3:11:30 AM **********
+Exception Type: Newtonsoft.Json.JsonReaderException
+Exception: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+Source: payment/request
+Stack Trace: 
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at I3SwebAPIv2.Controllers.PaymentV2Controller.<Post_Payment_Request>d__4.MoveNext() in F:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\PaymentV2Controller.cs:line 232
+
+********** 10/18/2022 3:38:34 PM **********
+Exception Type: System.NullReferenceException
+Exception: Object reference not set to an instance of an object.
+Source: payment/online-order
+Stack Trace: 
+   at I3SwebAPIv2.Controllers.PaymentV2Controller.<Post_Payment_Online_Order>d__6.MoveNext() in F:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\PaymentV2Controller.cs:line 760
+
+********** 2/2/2023 11:32:51 AM **********
+Exception Type: System.NullReferenceException
+Exception: Object reference not set to an instance of an object.
+Source: account/verify-kyc
+Stack Trace: 
+   at I3SwebAPIv2.Class.AccountV2Class.<PostAccountVerify>d__13.MoveNext() in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Class\AccountV2Class.cs:line 283
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at I3SwebAPIv2.Controllers.AccountV2Controller.<Post_Account_Verify_KYC>d__20.MoveNext() in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\AccountV2Controller.cs:line 2051
+
+********** 2/2/2023 11:37:59 AM **********
+Exception Type: System.NullReferenceException
+Exception: Object reference not set to an instance of an object.
+Source: account/verify-kyc
+Stack Trace: 
+   at I3SwebAPIv2.Class.AccountV2Class.ConvertImageURLToBase64(String url) in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Class\AccountV2Class.cs:line 509
+   at I3SwebAPIv2.Class.AccountV2Class.<PostAccountVerify>d__13.MoveNext() in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Class\AccountV2Class.cs:line 283
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at I3SwebAPIv2.Controllers.AccountV2Controller.<Post_Account_Verify_KYC>d__20.MoveNext() in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\AccountV2Controller.cs:line 2051
+
+********** 5/2/2023 10:30:07 AM **********
+Exception Type: System.InvalidOperationException
+Exception: Nested transactions are not supported.
+Source: user/delete-account
+Stack Trace: 
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.BeginTransaction(IsolationLevel iso, String scope)
+   at I3SwebAPIv2.Controllers.UsersV2Controller.Post_User_Delete_Account(String culture, DeleteAccountParam value) in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\UsersV2Controller.cs:line 1191
+
+********** 5/2/2023 10:38:10 AM **********
+Exception Type: MySql.Data.MySqlClient.MySqlException
+Exception: Procedure or function '`sp_delete_user_ccount`' cannot be found in database '`emerging_i3s_db_v2_uat`'. Verify that user 'emerging_sa'@'110.4.45.233' has enough privileges to execute.
+Source: user/delete-account
+Stack Trace: 
+   at MySql.Data.MySqlClient.ProcedureCache.GetProcData(MySqlConnection connection, String spName)
+   at MySql.Data.MySqlClient.ProcedureCache.AddNew(MySqlConnection connection, String spName)
+   at MySql.Data.MySqlClient.ProcedureCache.GetProcedure(MySqlConnection conn, String spName, String cacheKey)
+   at MySql.Data.MySqlClient.StoredProcedure.CheckParameters(String spName)
+   at MySql.Data.MySqlClient.StoredProcedure.Resolve(Boolean preparing)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at I3SwebAPIv2.Controllers.UsersV2Controller.Post_User_Delete_Account(String culture, DeleteAccountParam value) in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\UsersV2Controller.cs:line 1205
+
+********** 5/2/2023 10:39:18 AM **********
+Exception Type: MySql.Data.MySqlClient.MySqlException
+Exception: Result consisted of more than one row
+Source: user/delete-account
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at I3SwebAPIv2.Controllers.UsersV2Controller.Post_User_Delete_Account(String culture, DeleteAccountParam value) in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\UsersV2Controller.cs:line 1205
+
+********** 5/2/2023 10:43:08 AM **********
+Exception Type: System.InvalidOperationException
+Exception: Nested transactions are not supported.
+Source: user/delete-account
+Stack Trace: 
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.BeginTransaction(IsolationLevel iso, String scope)
+   at I3SwebAPIv2.Controllers.UsersV2Controller.Post_User_Delete_Account(String culture, DeleteAccountParam value) in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\UsersV2Controller.cs:line 1190
+
+********** 5/2/2023 10:43:56 AM **********
+Exception Type: System.InvalidOperationException
+Exception: Nested transactions are not supported.
+Source: user/delete-account
+Stack Trace: 
+   at MySql.Data.MySqlClient.Interceptors.ExceptionInterceptor.Throw(Exception exception)
+   at MySql.Data.MySqlClient.MySqlConnection.BeginTransaction(IsolationLevel iso, String scope)
+   at I3SwebAPIv2.Controllers.UsersV2Controller.Post_User_Delete_Account(String culture, DeleteAccountParam value) in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\UsersV2Controller.cs:line 1190
+
+********** 5/2/2023 10:45:22 AM **********
+Exception Type: MySql.Data.MySqlClient.MySqlException
+Exception: Result consisted of more than one row
+Source: user/delete-account
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at I3SwebAPIv2.Controllers.UsersV2Controller.Post_User_Delete_Account(String culture, DeleteAccountParam value) in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\UsersV2Controller.cs:line 1206
+
+********** 5/2/2023 11:02:10 AM **********
+Exception Type: MySql.Data.MySqlClient.MySqlException
+Exception: Result consisted of more than one row
+Source: user/delete-account
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at I3SwebAPIv2.Controllers.UsersV2Controller.Post_User_Delete_Account(String culture, DeleteAccountParam value) in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\UsersV2Controller.cs:line 1205
+
+********** 5/2/2023 11:05:58 AM **********
+Exception Type: MySql.Data.MySqlClient.MySqlException
+Exception: Result consisted of more than one row
+Source: user/delete-account
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at I3SwebAPIv2.Controllers.UsersV2Controller.Post_User_Delete_Account(String culture, DeleteAccountParam value) in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\UsersV2Controller.cs:line 1205
+
+********** 5/2/2023 11:07:02 AM **********
+Exception Type: MySql.Data.MySqlClient.MySqlException
+Exception: Result consisted of more than one row
+Source: user/delete-account
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at I3SwebAPIv2.Controllers.UsersV2Controller.Post_User_Delete_Account(String culture, DeleteAccountParam value) in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\UsersV2Controller.cs:line 1205
+
+********** 5/2/2023 11:12:43 AM **********
+Exception Type: MySql.Data.MySqlClient.MySqlException
+Exception: Result consisted of more than one row
+Source: user/delete-account
+Stack Trace: 
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at I3SwebAPIv2.Controllers.UsersV2Controller.Post_User_Delete_Account(String culture, DeleteAccountParam value) in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Controllers\UsersV2Controller.cs:line 1205
+
+********** 5/2/2023 11:14:42 AM **********
+Inner Exception Type: System.Net.WebException
+Inner Exception: Unable to connect to the remote server
+Inner Source: System
+Inner Stack Trace: 
+   at System.Net.ServicePoint.GetConnection(PooledStream PooledStream, Object owner, Boolean async, IPAddress& address, Socket& abortSocket, Socket& abortSocket6)
+   at System.Net.PooledStream.Activate(Object owningObject, Boolean async, GeneralAsyncDelegate asyncCallback)
+   at System.Net.ConnectionPool.GetConnection(Object owningObject, GeneralAsyncDelegate asyncCallback, Int32 creationTimeout)
+   at System.Net.Mail.SmtpConnection.GetConnection(ServicePoint servicePoint)
+   at System.Net.Mail.SmtpClient.GetConnection()
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+Exception Type: System.Net.Mail.SmtpException
+Exception: Failure sending mail.
+Source: user/delete-account
+Stack Trace: 
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at I3SwebAPIv2.Class.EmailV2Class.Send_Email_Delete_Account_GV(String email, String full_name, String nric, String mobile_number) in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Class\EmailV2Class.cs:line 181
+
+********** 5/2/2023 11:23:35 AM **********
+Inner Exception Type: System.Net.WebException
+Inner Exception: Unable to connect to the remote server
+Inner Source: System
+Inner Stack Trace: 
+   at System.Net.ServicePoint.GetConnection(PooledStream PooledStream, Object owner, Boolean async, IPAddress& address, Socket& abortSocket, Socket& abortSocket6)
+   at System.Net.PooledStream.Activate(Object owningObject, Boolean async, GeneralAsyncDelegate asyncCallback)
+   at System.Net.ConnectionPool.GetConnection(Object owningObject, GeneralAsyncDelegate asyncCallback, Int32 creationTimeout)
+   at System.Net.Mail.SmtpConnection.GetConnection(ServicePoint servicePoint)
+   at System.Net.Mail.SmtpClient.GetConnection()
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+Exception Type: System.Net.Mail.SmtpException
+Exception: Failure sending mail.
+Source: user/delete-account
+Stack Trace: 
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at I3SwebAPIv2.Class.EmailV2Class.Send_Email_Delete_Account_GV(String email, String full_name, String nric, String mobile_number) in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Class\EmailV2Class.cs:line 181
+
+********** 5/2/2023 11:25:56 AM **********
+Inner Exception Type: System.Net.WebException
+Inner Exception: Unable to connect to the remote server
+Inner Source: System
+Inner Stack Trace: 
+   at System.Net.ServicePoint.GetConnection(PooledStream PooledStream, Object owner, Boolean async, IPAddress& address, Socket& abortSocket, Socket& abortSocket6)
+   at System.Net.PooledStream.Activate(Object owningObject, Boolean async, GeneralAsyncDelegate asyncCallback)
+   at System.Net.ConnectionPool.GetConnection(Object owningObject, GeneralAsyncDelegate asyncCallback, Int32 creationTimeout)
+   at System.Net.Mail.SmtpConnection.GetConnection(ServicePoint servicePoint)
+   at System.Net.Mail.SmtpClient.GetConnection()
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+Exception Type: System.Net.Mail.SmtpException
+Exception: Failure sending mail.
+Source: user/delete-account
+Stack Trace: 
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at I3SwebAPIv2.Class.EmailV2Class.Send_Email_Delete_Account(String email, String full_name, String nric, String mobile_number) in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Class\EmailV2Class.cs:line 137
+
+********** 5/2/2023 11:27:41 AM **********
+Inner Exception Type: System.Net.WebException
+Inner Exception: Unable to connect to the remote server
+Inner Source: System
+Inner Stack Trace: 
+   at System.Net.ServicePoint.GetConnection(PooledStream PooledStream, Object owner, Boolean async, IPAddress& address, Socket& abortSocket, Socket& abortSocket6)
+   at System.Net.PooledStream.Activate(Object owningObject, Boolean async, GeneralAsyncDelegate asyncCallback)
+   at System.Net.ConnectionPool.GetConnection(Object owningObject, GeneralAsyncDelegate asyncCallback, Int32 creationTimeout)
+   at System.Net.Mail.SmtpConnection.GetConnection(ServicePoint servicePoint)
+   at System.Net.Mail.SmtpClient.GetConnection()
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+Exception Type: System.Net.Mail.SmtpException
+Exception: Failure sending mail.
+Source: user/delete-account
+Stack Trace: 
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at I3SwebAPIv2.Class.EmailV2Class.Send_Email_Delete_Account(String email, String full_name, String nric, String mobile_number) in E:\i3s\I3SwebAPIv2\I3SwebAPIv2\Class\EmailV2Class.cs:line 137
+

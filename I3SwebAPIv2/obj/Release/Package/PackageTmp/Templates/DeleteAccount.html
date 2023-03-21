@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport" />
+    <title>Account Closure</title>
+    <!-- Favicon-->
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,cyrillic-ext" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css" />
+    <!-- Bootstrap Core Css -->
+    <link href="https://program.i-3s.com.my/AdminBSB/plugins/bootstrap/css/bootstrap.css" rel="stylesheet" />
+
+    <!-- Waves Effect Css -->
+    <link href="https://program.i-3s.com.my/AdminBSB/plugins/node-waves/waves.css" rel="stylesheet" />
+
+    <!-- Animation Css -->
+    <link href="https://program.i-3s.com.my/AdminBSB/plugins/animate-css/animate.css" rel="stylesheet" />
+
+    <!-- Custom Css -->
+    <link href="https://program.i-3s.com.my/AdminBSB/css/style.css" rel="stylesheet" />
+
+    <!-- Jquery Core Js -->
+    <script src="https://program.i-3s.com.my/AdminBSB/plugins/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core Js -->
+    <script src="https://program.i-3s.com.my/AdminBSB/plugins/bootstrap/js/bootstrap.js"></script>
+
+    <!-- Waves Effect Plugin Js -->
+    <script src="https://program.i-3s.com.my/AdminBSB/plugins/node-waves/waves.js"></script>
+
+    <!-- Validation Plugin Js -->
+    <script src="https://program.i-3s.com.my/AdminBSB/plugins/jquery-validation/jquery.validate.js"></script>
+
+    <!-- Bootstrap Notify Plugin Js -->
+    <script src="https://program.i-3s.com.my/AdminBSB/plugins/bootstrap-notify/bootstrap-notify.js"></script>
+
+    <!-- Custom Js -->
+    <script src="https://program.i-3s.com.my/AdminBSB/js/pages/ui/notifications.js"></script>
+    <script src="https://program.i-3s.com.my/AdminBSB/js/admin.js"></script>
+</head>
+<body style="background-color:ghostwhite">
+    <input id="HApiLink" type="hidden" runat="server" />
+    <form id="form1" runat="server">
+        <div>
+            <div class="row clearfix" style="padding-top:30px">
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
+                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+                    <div class="card">
+                        <div class="body">
+                            <p class="lead">
+                                Hello Admin,
+                            </p>
+                            <p>
+                                Please find user details below for account closure.
+                            </p>
+                            <p>
+                                Full Name : {full_name}<br />IC/Passport Number : {nric}<br />Email : {email}<br />Mobile Number : {mobile_number}
+                            </p>
+                            <p>
+                                <br />Thanks
+                            </p>
+                            <p>
+                                I-3S Admin
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

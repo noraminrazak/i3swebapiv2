@@ -1,0 +1,639 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Absent" xml:space="preserve">
+    <value>Absent</value>
+  </data>
+  <data name="AccountAlreadyVerify" xml:space="preserve">
+    <value>Your account has been verified. Please login to continue.</value>
+  </data>
+  <data name="AccountDeleteSuccess" xml:space="preserve">
+    <value>Account deleted successfully. You will be logged out automatically. </value>
+  </data>
+  <data name="AccountNotFound" xml:space="preserve">
+    <value>Your account could not be found.</value>
+  </data>
+  <data name="AccountVerifySuccess" xml:space="preserve">
+    <value>Your account has been verified. Please change your card PIN.</value>
+  </data>
+  <data name="AccountVerifySuccessMerchant" xml:space="preserve">
+    <value>Your account has been verified. Please login to continue. </value>
+  </data>
+  <data name="AttUploadSuccess" xml:space="preserve">
+    <value>Attachment successfully uploaded.</value>
+  </data>
+  <data name="AwaitingVerificationMpay" xml:space="preserve">
+    <value>Your documents are awaiting verification. Please check your email for status update.</value>
+  </data>
+  <data name="BadRequestText" xml:space="preserve">
+    <value>400 - Bad Request</value>
+  </data>
+  <data name="CardLimitUpdateSuccess" xml:space="preserve">
+    <value>Card daily limit successfully updated.</value>
+  </data>
+  <data name="CardPinChangeSuccessText" xml:space="preserve">
+    <value>Pin number changed successfully. Please login using your MyKad / Passport number as Username to proceed.</value>
+  </data>
+  <data name="CardReplaceSuccess" xml:space="preserve">
+    <value>Card has successfully been replaced.</value>
+  </data>
+  <data name="CardStatusAlreadyBlacklist" xml:space="preserve">
+    <value>Card status already blacklisted.</value>
+  </data>
+  <data name="CardStatusNotActive" xml:space="preserve">
+    <value>Card status not active.</value>
+  </data>
+  <data name="CardStatusUpdateSuccess" xml:space="preserve">
+    <value>Card status successfully updated.</value>
+  </data>
+  <data name="CategoryName" xml:space="preserve">
+    <value>Category Name</value>
+  </data>
+  <data name="ChannelAlreadyJoin" xml:space="preserve">
+    <value>You already joined this channel.</value>
+  </data>
+  <data name="ChannelJoinSuccess" xml:space="preserve">
+    <value>Channel successfully joined.</value>
+  </data>
+  <data name="ChannelLeaveSuccess" xml:space="preserve">
+    <value>You already left this channel.</value>
+  </data>
+  <data name="ClassAttendanceReportNotFound" xml:space="preserve">
+    <value>Class attendance report could not be found.</value>
+  </data>
+  <data name="ClassAttendanceReportSuccess" xml:space="preserve">
+    <value>Class attendance report successfully exported.</value>
+  </data>
+  <data name="ClassDailyOrderReportTitle" xml:space="preserve">
+    <value>Class Daily Order Report</value>
+  </data>
+  <data name="ClassName" xml:space="preserve">
+    <value>Class Name</value>
+  </data>
+  <data name="ClassOrderReportNotFound" xml:space="preserve">
+    <value>Class daily order report could not be found.</value>
+  </data>
+  <data name="ClassOrderReportSuccess" xml:space="preserve">
+    <value>Class daily order report successfully exported.</value>
+  </data>
+  <data name="ClassRelationshipCreateSuccess" xml:space="preserve">
+    <value>Class relationship successfully created.</value>
+  </data>
+  <data name="ClassRelationshipExist" xml:space="preserve">
+    <value>Class relationship already exists.</value>
+  </data>
+  <data name="ClassRelationshipNotFound" xml:space="preserve">
+    <value>Class relationship could not be found.</value>
+  </data>
+  <data name="ClassRelationshipRemoveSuccess" xml:space="preserve">
+    <value>Class relationship successfully removed.</value>
+  </data>
+  <data name="ClassStudentExist" xml:space="preserve">
+    <value>Student already enrolled into the class.</value>
+  </data>
+  <data name="ClassTeacherExist" xml:space="preserve">
+    <value>Class teacher already exist. full_name is the current class teacher.</value>
+  </data>
+  <data name="ClubAttAlreadyExist" xml:space="preserve">
+    <value>Club attendance already exists.</value>
+  </data>
+  <data name="ClubAttCreatedSuccess" xml:space="preserve">
+    <value>Club attendance created successfully.</value>
+  </data>
+  <data name="ClubHandoverSuccess" xml:space="preserve">
+    <value>Club successfully handed over.</value>
+  </data>
+  <data name="ClubMemberExist" xml:space="preserve">
+    <value>Club member already exists.</value>
+  </data>
+  <data name="ClubMemberNotFound" xml:space="preserve">
+    <value>Club member could not be found.</value>
+  </data>
+  <data name="ClubMemberRemoveSuccess" xml:space="preserve">
+    <value>Club member successfully removed.</value>
+  </data>
+  <data name="ClubRelationshipCreateSuccess" xml:space="preserve">
+    <value>Club relationship successfully created.</value>
+  </data>
+  <data name="ClubRelationshipExist" xml:space="preserve">
+    <value>Club relationship already exists.</value>
+  </data>
+  <data name="ClubRelationshipNotFound" xml:space="preserve">
+    <value>Club relationship could not be found.</value>
+  </data>
+  <data name="ClubRelationshipRemoveSuccess" xml:space="preserve">
+    <value>Club relationship successfully removed.</value>
+  </data>
+  <data name="CompanyName" xml:space="preserve">
+    <value>Company Name</value>
+  </data>
+  <data name="CustomerDocumentRejected" xml:space="preserve">
+    <value>Customer document rejected, please resubmit through i-3s mobile app to proceed.</value>
+  </data>
+  <data name="CustomerRejected" xml:space="preserve">
+    <value>Customer rejected, please contact call center for further detail.</value>
+  </data>
+  <data name="Delivery" xml:space="preserve">
+    <value>Delivery</value>
+  </data>
+  <data name="DocumentResubmitSuccess" xml:space="preserve">
+    <value>Document successfully submitted</value>
+  </data>
+  <data name="EmailInvalid" xml:space="preserve">
+    <value>Email format invalid.</value>
+  </data>
+  <data name="Enter" xml:space="preserve">
+    <value>Enter</value>
+  </data>
+  <data name="ErrorOccured" xml:space="preserve">
+    <value>An error has occured, please try again.</value>
+  </data>
+  <data name="Excused" xml:space="preserve">
+    <value>Excused</value>
+  </data>
+  <data name="FailToSendEmail" xml:space="preserve">
+    <value>Failed to send email.</value>
+  </data>
+  <data name="ForbiddenText" xml:space="preserve">
+    <value>403 - Forbidden</value>
+  </data>
+  <data name="IdentityNoInvalid" xml:space="preserve">
+    <value>Identity number is invalid.</value>
+  </data>
+  <data name="IdentityNumberAlreadyExist" xml:space="preserve">
+    <value>Identity number already registered.</value>
+  </data>
+  <data name="ImageUploadSuccess" xml:space="preserve">
+    <value>Image successfully uploaded.</value>
+  </data>
+  <data name="InCaseLostStolenCard" xml:space="preserve">
+    <value>In case of a lost or stolen card, please report a lost/stolen card first before you request for a card replacement. This will minimize the chances of losing your eWallet balance.</value>
+  </data>
+  <data name="IncorrectUsername" xml:space="preserve">
+    <value>Your Username is incorrect or you are not yet registered.</value>
+  </data>
+  <data name="InsufficientWalletBalance" xml:space="preserve">
+    <value>Insufficient wallet balance.</value>
+  </data>
+  <data name="InternalServerErrorText" xml:space="preserve">
+    <value>500 - Internal Server Error</value>
+  </data>
+  <data name="InvalidAmount" xml:space="preserve">
+    <value>Invalid amount.</value>
+  </data>
+  <data name="InvalidRecipientWalletNo" xml:space="preserve">
+    <value>Invalid recipient wallet number.</value>
+  </data>
+  <data name="InvalidWalletNo" xml:space="preserve">
+    <value>Invalid e-Wallet number.</value>
+  </data>
+  <data name="Late" xml:space="preserve">
+    <value>Late</value>
+  </data>
+  <data name="MaxOTPTryout" xml:space="preserve">
+    <value>Maximum OTP tryout limit exceeded.</value>
+  </data>
+  <data name="MobileNoInvalid" xml:space="preserve">
+    <value>Mobile number is invalid.</value>
+  </data>
+  <data name="Month" xml:space="preserve">
+    <value>Month</value>
+  </data>
+  <data name="MonthlyAttendanceReport" xml:space="preserve">
+    <value>Monthly Attendance Report</value>
+  </data>
+  <data name="NewCardNotFound" xml:space="preserve">
+    <value>New card not found! Please enter a valid new card number.</value>
+  </data>
+  <data name="NewChairmanMustBeMember" xml:space="preserve">
+    <value>New chairman must be a member of this club.</value>
+  </data>
+  <data name="NewClassStudentCreateSuccess" xml:space="preserve">
+    <value>Student have been successfully enrolled into the class.</value>
+  </data>
+  <data name="NewClubMemberCreateSuccess" xml:space="preserve">
+    <value>New club member successfully created.</value>
+  </data>
+  <data name="NewPostCreateSuccess" xml:space="preserve">
+    <value>New bulletin successfully created.</value>
+  </data>
+  <data name="NewRegistrationText" xml:space="preserve">
+    <value>New registration</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>No.</value>
+  </data>
+  <data name="NoRecordFoundText" xml:space="preserve">
+    <value>No record found.</value>
+  </data>
+  <data name="NoStatus" xml:space="preserve">
+    <value>No status</value>
+  </data>
+  <data name="NotFoundText" xml:space="preserve">
+    <value>404 - Not Found</value>
+  </data>
+  <data name="OrderDate" xml:space="preserve">
+    <value>Order Date</value>
+  </data>
+  <data name="OrderHistoryRemoved" xml:space="preserve">
+    <value>Your order history has been removed.</value>
+  </data>
+  <data name="OrderHistoryUpdate" xml:space="preserve">
+    <value>Your order history has been placed in the cart.</value>
+  </data>
+  <data name="OrderMustBePlacedBfor7" xml:space="preserve">
+    <value>Same-day online orders must be placed before 7:00 AM. Please remove your order for today to continue payment.</value>
+  </data>
+  <data name="OrderStatusUpdateSuccess" xml:space="preserve">
+    <value>Order status successfully updated.</value>
+  </data>
+  <data name="OrderTiming" xml:space="preserve">
+    <value>Order Timing</value>
+  </data>
+  <data name="OTPHasBeenSent" xml:space="preserve">
+    <value>OTP has been sent to </value>
+  </data>
+  <data name="OTPHasExpired" xml:space="preserve">
+    <value>OTP has expired.</value>
+  </data>
+  <data name="ParentIDAlreadyExist" xml:space="preserve">
+    <value>Your Identity Number has been registered as a parent.</value>
+  </data>
+  <data name="ParentStudentRelationshipCreateSuccess" xml:space="preserve">
+    <value>Parent-student relationship successfully created.</value>
+  </data>
+  <data name="ParentStudentRelationshipExist" xml:space="preserve">
+    <value>Parent-student relationship already exists.</value>
+  </data>
+  <data name="PendingActivation" xml:space="preserve">
+    <value>Pending customer activation</value>
+  </data>
+  <data name="PhotoSuccessRemove" xml:space="preserve">
+    <value>Photo successfully removed.</value>
+  </data>
+  <data name="PleaseCheckYourEmail" xml:space="preserve">
+    <value>Please check your email for reset password link.</value>
+  </data>
+  <data name="PleaseCreateNewPassword" xml:space="preserve">
+    <value>Please create your new password.</value>
+  </data>
+  <data name="PleaseEnterValidEmail" xml:space="preserve">
+    <value>Please enter a valid email address.</value>
+  </data>
+  <data name="PleaseUploadYourImage" xml:space="preserve">
+    <value>Please upload your MyKad / Passport image and your selfie image for verification process.</value>
+  </data>
+  <data name="PlsClearWalletBalance" xml:space="preserve">
+    <value>Please clear the balance in student wallet.</value>
+  </data>
+  <data name="PlsCreateNewPswd" xml:space="preserve">
+    <value>Please create your new password.</value>
+  </data>
+  <data name="PlsEnterPswd" xml:space="preserve">
+    <value>Please enter your password.</value>
+  </data>
+  <data name="PostSuccessRemove" xml:space="preserve">
+    <value>Bulletin successfully removed.</value>
+  </data>
+  <data name="PostUpdateSuccess" xml:space="preserve">
+    <value>Bulletin successfully updated.</value>
+  </data>
+  <data name="PreparedBy" xml:space="preserve">
+    <value>Prepared By</value>
+  </data>
+  <data name="Present" xml:space="preserve">
+    <value>Present</value>
+  </data>
+  <data name="PrintedDateTime" xml:space="preserve">
+    <value>Printed Date/Time</value>
+  </data>
+  <data name="ProductCategoryCreateSuccess" xml:space="preserve">
+    <value>Product category successfully created.</value>
+  </data>
+  <data name="ProductCategoryDeleteSuccess" xml:space="preserve">
+    <value>Product category successfully deleted.</value>
+  </data>
+  <data name="ProductCategoryExist" xml:space="preserve">
+    <value>Product category already exists.</value>
+  </data>
+  <data name="ProductCategoryUpdateSuccess" xml:space="preserve">
+    <value>Product category successfully updated.</value>
+  </data>
+  <data name="ProductDailyOrderReport" xml:space="preserve">
+    <value>Product Daily Order Report</value>
+  </data>
+  <data name="ProductDetailCreateSuccess" xml:space="preserve">
+    <value>Product detail successfully created.</value>
+  </data>
+  <data name="ProductDetailDeleteSuccess" xml:space="preserve">
+    <value>Product detail successfully deleted.</value>
+  </data>
+  <data name="ProductDetailExist" xml:space="preserve">
+    <value>Product detail already exists.</value>
+  </data>
+  <data name="ProductDetailUpdateSuccess" xml:space="preserve">
+    <value>Product detail successfully updated.</value>
+  </data>
+  <data name="ProductName" xml:space="preserve">
+    <value>Product Name</value>
+  </data>
+  <data name="ProductOrderReportNotFound" xml:space="preserve">
+    <value>Product daily order report could not be found.</value>
+  </data>
+  <data name="ProductOrderReportSuccess" xml:space="preserve">
+    <value>Product daily order report successfully exported.</value>
+  </data>
+  <data name="ProfileUpdateSuccess" xml:space="preserve">
+    <value>Your profile has been updated.</value>
+  </data>
+  <data name="PswdNotMatch" xml:space="preserve">
+    <value>Password does not match.</value>
+  </data>
+  <data name="PswdUpdateSuccess" xml:space="preserve">
+    <value>Password successfully updated.</value>
+  </data>
+  <data name="Qty" xml:space="preserve">
+    <value>Kuantiti</value>
+  </data>
+  <data name="ReceiveOrder" xml:space="preserve">
+    <value>We have received your order.</value>
+  </data>
+  <data name="RegisterDoubleRole" xml:space="preserve">
+    <value>You account has been registered as a staff before. Would you like to register as a parent / guardian as well?</value>
+  </data>
+  <data name="RegisterSuccess" xml:space="preserve">
+    <value>You account has been registered. Please login using your MyKad / Passport number as Username to proceed.</value>
+  </data>
+  <data name="Report" xml:space="preserve">
+    <value>Report</value>
+  </data>
+  <data name="RequestTimeoutText" xml:space="preserve">
+    <value>408 - Request Timeout</value>
+  </data>
+  <data name="SchoolClubExist" xml:space="preserve">
+    <value>Club name already exists.</value>
+  </data>
+  <data name="SchoolClubSaveSuccess" xml:space="preserve">
+    <value>New club successfully created.</value>
+  </data>
+  <data name="SchoolName" xml:space="preserve">
+    <value>School Name</value>
+  </data>
+  <data name="SelfPickup" xml:space="preserve">
+    <value>Self Pick-up</value>
+  </data>
+  <data name="ServiceMethod" xml:space="preserve">
+    <value>Service Method</value>
+  </data>
+  <data name="ServiceTemporaryDown" xml:space="preserve">
+    <value>Service is temporarily unavailable due to maintenance. Please try again later.</value>
+  </data>
+  <data name="ServiceUnavailableText" xml:space="preserve">
+    <value>503 - Service Unavailable</value>
+  </data>
+  <data name="ShiftCode" xml:space="preserve">
+    <value>Session Code</value>
+  </data>
+  <data name="SomethingWentWrong" xml:space="preserve">
+    <value>Something went wrong. Please try again later.</value>
+  </data>
+  <data name="SorryAccNotActive" xml:space="preserve">
+    <value>Sorry, your account is not active.</value>
+  </data>
+  <data name="SorryAccountInactive" xml:space="preserve">
+    <value>Sorry, your account is not active.</value>
+  </data>
+  <data name="StaffAttendanceReportNotFound" xml:space="preserve">
+    <value>Staff attendance report could not be found.</value>
+  </data>
+  <data name="StaffAttendanceReportSuccess" xml:space="preserve">
+    <value>Staff attendance report successfully exported.</value>
+  </data>
+  <data name="StaffAttNotFound" xml:space="preserve">
+    <value>Staff attendance could not be found.</value>
+  </data>
+  <data name="StaffAttUpdateSuccess" xml:space="preserve">
+    <value>Staff attendance successfully updated.</value>
+  </data>
+  <data name="StaffDailyOrderReportTitle" xml:space="preserve">
+    <value>Staff Daily Order Report</value>
+  </data>
+  <data name="StaffName" xml:space="preserve">
+    <value>Staff Name</value>
+  </data>
+  <data name="StaffNotFound" xml:space="preserve">
+    <value>Staff could not be found.</value>
+  </data>
+  <data name="StaffOrderReportNotFound" xml:space="preserve">
+    <value>Staff daily order report could not be found.</value>
+  </data>
+  <data name="StaffOrderReportSuccess" xml:space="preserve">
+    <value>Staff daily order report successfully exported.</value>
+  </data>
+  <data name="StaffRemoveSuccess" xml:space="preserve">
+    <value>Staff successfully removed.</value>
+  </data>
+  <data name="StaffShiftExist" xml:space="preserve">
+    <value>Staff shift already exists.</value>
+  </data>
+  <data name="StaffShiftUpdateSuccess" xml:space="preserve">
+    <value>Staff shift successfully updated.</value>
+  </data>
+  <data name="StatusUpdateSuccess" xml:space="preserve">
+    <value>Status successfully updated.</value>
+  </data>
+  <data name="StudentAccUpdateSuccess" xml:space="preserve">
+    <value>Student account successfully updated.</value>
+  </data>
+  <data name="StudentAttNotFound" xml:space="preserve">
+    <value>Student attendance could not be found.</value>
+  </data>
+  <data name="StudentAttUpdateSuccess" xml:space="preserve">
+    <value>Student attendance successfully updated.</value>
+  </data>
+  <data name="StudentClassExist" xml:space="preserve">
+    <value>Student class already exists.</value>
+  </data>
+  <data name="StudentClassUpdateSuccess" xml:space="preserve">
+    <value>Student class successfully updated.</value>
+  </data>
+  <data name="StudentClsNotFound" xml:space="preserve">
+    <value>Student class could not be found.</value>
+  </data>
+  <data name="StudentClsRemoveSuccess" xml:space="preserve">
+    <value>Student class successfully removed.</value>
+  </data>
+  <data name="StudentDailyOrderReport" xml:space="preserve">
+    <value>Student Daily Order Report</value>
+  </data>
+  <data name="StudentName" xml:space="preserve">
+    <value>Student Name</value>
+  </data>
+  <data name="StudentOrderReportNotFound" xml:space="preserve">
+    <value>Student daily order report could not be found.</value>
+  </data>
+  <data name="StudentOrderReportSuccess" xml:space="preserve">
+    <value>Student daily order report successfully exported.</value>
+  </data>
+  <data name="StudentRelationshipNotFound" xml:space="preserve">
+    <value>Student relationship could not be found.</value>
+  </data>
+  <data name="StudentRelationshipRemoveSuccess" xml:space="preserve">
+    <value>Student relationship successfully removed.</value>
+  </data>
+  <data name="ThankYouFeedback" xml:space="preserve">
+    <value>Your feedback is much appreciated.</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="UnauthorizedText" xml:space="preserve">
+    <value>401 - Unauthorized</value>
+  </data>
+  <data name="UnitPrice" xml:space="preserve">
+    <value>Unit Price</value>
+  </data>
+  <data name="UnsufficientWalletBalance" xml:space="preserve">
+    <value>Unsufficient e-Wallet balance.</value>
+  </data>
+  <data name="UsernameIncorrect" xml:space="preserve">
+    <value>Your username is incorrect/not registered.</value>
+  </data>
+  <data name="WrongOTP" xml:space="preserve">
+    <value>Wrong OTP.</value>
+  </data>
+  <data name="Year" xml:space="preserve">
+    <value>Year</value>
+  </data>
+  <data name="YourOrderHasBeenReceived" xml:space="preserve">
+    <value>Your order has been received.</value>
+  </data>
+  <data name="YourTopupFail" xml:space="preserve">
+    <value>Your credit top-up is unsuccessful.</value>
+  </data>
+  <data name="YourTopupSuccess" xml:space="preserve">
+    <value>Your credit top-up is successful.</value>
+  </data>
+  <data name="YourTransferFail" xml:space="preserve">
+    <value>Your credit transfer is unsuccessful.</value>
+  </data>
+  <data name="YourTransferSuccess" xml:space="preserve">
+    <value>Your credit has been transferred.</value>
+  </data>
+</root>

@@ -1,0 +1,639 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Absent" xml:space="preserve">
+    <value>Tidak Hadir</value>
+  </data>
+  <data name="AccountAlreadyVerify" xml:space="preserve">
+    <value>Akaun anda telah disahkan. Sila daftar masuk untuk meneruskan.</value>
+  </data>
+  <data name="AccountDeleteSuccess" xml:space="preserve">
+    <value>Akaun berjaya dipadamkan. Anda akan dilog keluar secara automatik.</value>
+  </data>
+  <data name="AccountNotFound" xml:space="preserve">
+    <value>Akaun anda tidak dapat ditemui.</value>
+  </data>
+  <data name="AccountVerifySuccess" xml:space="preserve">
+    <value>Akaun anda telah disahkan. Sila tukar PIN kad anda.</value>
+  </data>
+  <data name="AccountVerifySuccessMerchant" xml:space="preserve">
+    <value>Akaun anda telah disahkan. Sila daftar masuk untuk meneruskan. </value>
+  </data>
+  <data name="AttUploadSuccess" xml:space="preserve">
+    <value>Lampiran berjaya dimuat naik.</value>
+  </data>
+  <data name="AwaitingVerificationMpay" xml:space="preserve">
+    <value>Dokumen anda sedang diproses. Sila semak emel anda untuk makluman status terkini.</value>
+  </data>
+  <data name="BadRequestText" xml:space="preserve">
+    <value>400 - Permintaan tidak sah</value>
+  </data>
+  <data name="CardLimitUpdateSuccess" xml:space="preserve">
+    <value>Had harian kad berjaya dikemas kini.</value>
+  </data>
+  <data name="CardPinChangeSuccessText" xml:space="preserve">
+    <value>Nombor pin berjaya ditukar. Sila daftar masuk menggunakan nombor MyKad / Passport sebagai Nama Pengguna untuk meneruskan. </value>
+  </data>
+  <data name="CardReplaceSuccess" xml:space="preserve">
+    <value>Kad berjaya diganti.</value>
+  </data>
+  <data name="CardStatusAlreadyBlacklist" xml:space="preserve">
+    <value>Status kad sudah disenarai hitam.</value>
+  </data>
+  <data name="CardStatusNotActive" xml:space="preserve">
+    <value>Kad status tidak aktif.</value>
+  </data>
+  <data name="CardStatusUpdateSuccess" xml:space="preserve">
+    <value>Status kad berjaya dikemas kini.</value>
+  </data>
+  <data name="CategoryName" xml:space="preserve">
+    <value>Nama Kategori</value>
+  </data>
+  <data name="ChannelAlreadyJoin" xml:space="preserve">
+    <value>Anda sudah menyertai saluran ini.</value>
+  </data>
+  <data name="ChannelJoinSuccess" xml:space="preserve">
+    <value>Saluran berjaya disertai.</value>
+  </data>
+  <data name="ChannelLeaveSuccess" xml:space="preserve">
+    <value>Anda sudah meninggalkan saluran ini.</value>
+  </data>
+  <data name="ClassAttendanceReportNotFound" xml:space="preserve">
+    <value>Laporan kehadiran kelas tidak dijumpai.</value>
+  </data>
+  <data name="ClassAttendanceReportSuccess" xml:space="preserve">
+    <value>Laporan kehadiran class berjaya dieksport.</value>
+  </data>
+  <data name="ClassDailyOrderReportTitle" xml:space="preserve">
+    <value>Laporan Pesanan Harian Kelas</value>
+  </data>
+  <data name="ClassName" xml:space="preserve">
+    <value>Nama Kelas</value>
+  </data>
+  <data name="ClassOrderReportNotFound" xml:space="preserve">
+    <value>Laporan pesanan harian kelas tidak dijumpai.</value>
+  </data>
+  <data name="ClassOrderReportSuccess" xml:space="preserve">
+    <value>Laporan pesanan harian kelas berjaya dieksport.</value>
+  </data>
+  <data name="ClassRelationshipCreateSuccess" xml:space="preserve">
+    <value>Hubungan kelas berjaya dicipta.</value>
+  </data>
+  <data name="ClassRelationshipExist" xml:space="preserve">
+    <value>Hubungan kelas sudah didaftarkan.</value>
+  </data>
+  <data name="ClassRelationshipNotFound" xml:space="preserve">
+    <value>Hubungan kelas tidak dijumpai.</value>
+  </data>
+  <data name="ClassRelationshipRemoveSuccess" xml:space="preserve">
+    <value>Hubungan kelas berjaya dikeluarkan.</value>
+  </data>
+  <data name="ClassStudentExist" xml:space="preserve">
+    <value>Pelajar sudah didaftarkan ke dalam kelas.</value>
+  </data>
+  <data name="ClassTeacherExist" xml:space="preserve">
+    <value>Guru kelas sudah didaftarkan. full_name adalah guru kelas semasa.</value>
+  </data>
+  <data name="ClubAttAlreadyExist" xml:space="preserve">
+    <value>Kehadiran kelab sudah didaftarkan.</value>
+  </data>
+  <data name="ClubAttCreatedSuccess" xml:space="preserve">
+    <value>Kehadiran kelab berjaya dicipta.</value>
+  </data>
+  <data name="ClubHandoverSuccess" xml:space="preserve">
+    <value>Kelab berjaya diserahkan.</value>
+  </data>
+  <data name="ClubMemberExist" xml:space="preserve">
+    <value>Ahli kelab sudah didaftarkan.</value>
+  </data>
+  <data name="ClubMemberNotFound" xml:space="preserve">
+    <value>Ahli kelab tidak dijumpai.</value>
+  </data>
+  <data name="ClubMemberRemoveSuccess" xml:space="preserve">
+    <value>Ahli kelab berjaya dkeluarkan.</value>
+  </data>
+  <data name="ClubRelationshipCreateSuccess" xml:space="preserve">
+    <value>Hubungan kelab berjaya dicipta.</value>
+  </data>
+  <data name="ClubRelationshipExist" xml:space="preserve">
+    <value>Hubungan kelab sudah didaftarkan.</value>
+  </data>
+  <data name="ClubRelationshipNotFound" xml:space="preserve">
+    <value>Hubungan kelab tidak dijumpai.</value>
+  </data>
+  <data name="ClubRelationshipRemoveSuccess" xml:space="preserve">
+    <value>Hubungan kelab berjaya dikeluarkan.</value>
+  </data>
+  <data name="CompanyName" xml:space="preserve">
+    <value>Nama Kedai</value>
+  </data>
+  <data name="CustomerDocumentRejected" xml:space="preserve">
+    <value>Dokumen pelanggan ditolak, sila serahkan semula melalui aplikasi mudah alih i-3s untuk meneruskan.</value>
+  </data>
+  <data name="CustomerRejected" xml:space="preserve">
+    <value>Pelanggan ditolak, sila hubungi pusat panggilan untuk butiran lanjut.</value>
+  </data>
+  <data name="Delivery" xml:space="preserve">
+    <value>Penghantaran</value>
+  </data>
+  <data name="DocumentResubmitSuccess" xml:space="preserve">
+    <value>Dokumen berjaya diserahkan</value>
+  </data>
+  <data name="EmailInvalid" xml:space="preserve">
+    <value>Format e-mel tidak sah.</value>
+  </data>
+  <data name="Enter" xml:space="preserve">
+    <value>Masuk</value>
+  </data>
+  <data name="ErrorOccured" xml:space="preserve">
+    <value>Ralat telah berlaku, sila cuba lagi.</value>
+  </data>
+  <data name="Excused" xml:space="preserve">
+    <value>Bersebab</value>
+  </data>
+  <data name="FailToSendEmail" xml:space="preserve">
+    <value>Gagal menghantar e-mel.</value>
+  </data>
+  <data name="ForbiddenText" xml:space="preserve">
+    <value>403 - Permintaan dilarang</value>
+  </data>
+  <data name="IdentityNoInvalid" xml:space="preserve">
+    <value>Nombor identiti tidak sah.</value>
+  </data>
+  <data name="IdentityNumberAlreadyExist" xml:space="preserve">
+    <value>Nombor pengenalan sudah didaftarkan.</value>
+  </data>
+  <data name="ImageUploadSuccess" xml:space="preserve">
+    <value>Imej berjaya dimuat naik.</value>
+  </data>
+  <data name="InCaseLostStolenCard" xml:space="preserve">
+    <value>Sekiranya kad hilang atau dicuri, sila lapor kehilangan/kecurian kad terlebih dahulu sebelum anda membuat penggantian kad. Ini dapat mengurangkan peluang kehilangan baki eWallet anda.</value>
+  </data>
+  <data name="IncorrectUsername" xml:space="preserve">
+    <value>Nama Pengguna anda tidak tepat atau masih belum berdaftar.</value>
+  </data>
+  <data name="InsufficientWalletBalance" xml:space="preserve">
+    <value>Baki e-Wallet tidak mencukupi.</value>
+  </data>
+  <data name="InternalServerErrorText" xml:space="preserve">
+    <value>500 - Ralat komputer pelayar</value>
+  </data>
+  <data name="InvalidAmount" xml:space="preserve">
+    <value>Amaun tidak sah.</value>
+  </data>
+  <data name="InvalidRecipientWalletNo" xml:space="preserve">
+    <value>Nombor e-Wallet penerima tidak sah.</value>
+  </data>
+  <data name="InvalidWalletNo" xml:space="preserve">
+    <value>Nombor e-Wallet tidak sah.</value>
+  </data>
+  <data name="Late" xml:space="preserve">
+    <value>Lewat</value>
+  </data>
+  <data name="MaxOTPTryout" xml:space="preserve">
+    <value>Had penggunaan OTP maksimum melebihi.</value>
+  </data>
+  <data name="MobileNoInvalid" xml:space="preserve">
+    <value>Nombor mudah alih tidak sah.</value>
+  </data>
+  <data name="Month" xml:space="preserve">
+    <value>Bulan</value>
+  </data>
+  <data name="MonthlyAttendanceReport" xml:space="preserve">
+    <value>Laporan Kehadiran Bulanan</value>
+  </data>
+  <data name="NewCardNotFound" xml:space="preserve">
+    <value>Kad baru tidak dijumpai! Sila masukkan nombor kad baru yang sah.</value>
+  </data>
+  <data name="NewChairmanMustBeMember" xml:space="preserve">
+    <value>Pengerusi baru mestilah salah seorang ahli kelab.</value>
+  </data>
+  <data name="NewClassStudentCreateSuccess" xml:space="preserve">
+    <value>Pelajar telah berjaya didaftarkan ke dalam kelas.</value>
+  </data>
+  <data name="NewClubMemberCreateSuccess" xml:space="preserve">
+    <value>Ahli kelab baru berjaya dicipta.</value>
+  </data>
+  <data name="NewPostCreateSuccess" xml:space="preserve">
+    <value>Buletin baru berjaya dicipta.</value>
+  </data>
+  <data name="NewRegistrationText" xml:space="preserve">
+    <value>Pendaftaran baru</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Bil.</value>
+  </data>
+  <data name="NoRecordFoundText" xml:space="preserve">
+    <value>Tiada rekod ditemui.</value>
+  </data>
+  <data name="NoStatus" xml:space="preserve">
+    <value>Tiada status</value>
+  </data>
+  <data name="NotFoundText" xml:space="preserve">
+    <value>404 - Destinasi tidak ditemui</value>
+  </data>
+  <data name="OrderDate" xml:space="preserve">
+    <value>Tarikh Pesanan</value>
+  </data>
+  <data name="OrderHistoryRemoved" xml:space="preserve">
+    <value>Sejarah pesanan anda telah dikeluarkan.</value>
+  </data>
+  <data name="OrderHistoryUpdate" xml:space="preserve">
+    <value>Sejarah pesanan anda telah dimasukkan ke dalam troli.</value>
+  </data>
+  <data name="OrderMustBePlacedBfor7" xml:space="preserve">
+    <value>Pesanan dalam talian pada hari yang sama mesti dibuat sebelum 7:00 AM. Sila alih keluar pesanan anda untuk hari ini untuk meneruskan pembayaran.</value>
+  </data>
+  <data name="OrderStatusUpdateSuccess" xml:space="preserve">
+    <value>Status pesanan berjaya dikemaskini.</value>
+  </data>
+  <data name="OrderTiming" xml:space="preserve">
+    <value>Masa Pesanan</value>
+  </data>
+  <data name="OTPHasBeenSent" xml:space="preserve">
+    <value>OTP telah dihantar kepada </value>
+  </data>
+  <data name="OTPHasExpired" xml:space="preserve">
+    <value>OTP telah tamat tempoh.</value>
+  </data>
+  <data name="ParentIDAlreadyExist" xml:space="preserve">
+    <value>Nombor identiti anda telah didaftarkan sebagai ibubapa.</value>
+  </data>
+  <data name="ParentStudentRelationshipCreateSuccess" xml:space="preserve">
+    <value>Hubungan ibu bapa-pelajar berjaya dicipta.</value>
+  </data>
+  <data name="ParentStudentRelationshipExist" xml:space="preserve">
+    <value>Hubungan ibu bapa-pelajar sudah didaftarkan.</value>
+  </data>
+  <data name="PendingActivation" xml:space="preserve">
+    <value>Menunggu pengaktifan pelanggan</value>
+  </data>
+  <data name="PhotoSuccessRemove" xml:space="preserve">
+    <value>Foto berjaya dikeluarkan.</value>
+  </data>
+  <data name="PleaseCheckYourEmail" xml:space="preserve">
+    <value>Sila periksa e-mel anda untuk menetapkan semula kata laluan.</value>
+  </data>
+  <data name="PleaseCreateNewPassword" xml:space="preserve">
+    <value>Sila cipta kata laluan baru anda.</value>
+  </data>
+  <data name="PleaseEnterValidEmail" xml:space="preserve">
+    <value>Sila masukkan alamat emel yang sah.</value>
+  </data>
+  <data name="PleaseUploadYourImage" xml:space="preserve">
+    <value>Sila muat naik imej MyKad / Pasport dan imej selfie anda untuk proses pengesahan.</value>
+  </data>
+  <data name="PlsClearWalletBalance" xml:space="preserve">
+    <value>Sila kosongkan baki dalam e-Wallet pelajar.</value>
+  </data>
+  <data name="PlsCreateNewPswd" xml:space="preserve">
+    <value>Sila cipta kata laluan baru.</value>
+  </data>
+  <data name="PlsEnterPswd" xml:space="preserve">
+    <value>Sila masukkan kata laluan.</value>
+  </data>
+  <data name="PostSuccessRemove" xml:space="preserve">
+    <value>Bulletin berjaya dikeluarkan.</value>
+  </data>
+  <data name="PostUpdateSuccess" xml:space="preserve">
+    <value>Bulletin berjaya dikemaskini.</value>
+  </data>
+  <data name="PreparedBy" xml:space="preserve">
+    <value>Disediakan oleh</value>
+  </data>
+  <data name="Present" xml:space="preserve">
+    <value>Hadir</value>
+  </data>
+  <data name="PrintedDateTime" xml:space="preserve">
+    <value>Tarikh/Masa dicetak</value>
+  </data>
+  <data name="ProductCategoryCreateSuccess" xml:space="preserve">
+    <value>Kategori produk berjaya dicipta.</value>
+  </data>
+  <data name="ProductCategoryDeleteSuccess" xml:space="preserve">
+    <value>Kategori produk berjaya dikeluarkan.</value>
+  </data>
+  <data name="ProductCategoryExist" xml:space="preserve">
+    <value>Kategori produk sudah didaftarkan.</value>
+  </data>
+  <data name="ProductCategoryUpdateSuccess" xml:space="preserve">
+    <value>Kategori produk berjaya dikemas kini.</value>
+  </data>
+  <data name="ProductDailyOrderReport" xml:space="preserve">
+    <value>Laporan Pesanan Harian Produk</value>
+  </data>
+  <data name="ProductDetailCreateSuccess" xml:space="preserve">
+    <value>Butiran produk berjaya dicipta.</value>
+  </data>
+  <data name="ProductDetailDeleteSuccess" xml:space="preserve">
+    <value>Butiran produk berjaya dikeluarkan.</value>
+  </data>
+  <data name="ProductDetailExist" xml:space="preserve">
+    <value>Butiran produk sudah didaftarkan.</value>
+  </data>
+  <data name="ProductDetailUpdateSuccess" xml:space="preserve">
+    <value>Butiran produk berjaya dikemas kini.</value>
+  </data>
+  <data name="ProductName" xml:space="preserve">
+    <value>Nama Produk</value>
+  </data>
+  <data name="ProductOrderReportNotFound" xml:space="preserve">
+    <value>Laporan pesanan harian produk tidak dijumpai.</value>
+  </data>
+  <data name="ProductOrderReportSuccess" xml:space="preserve">
+    <value>Laporan pesanan harian produk berjaya dieksport.</value>
+  </data>
+  <data name="ProfileUpdateSuccess" xml:space="preserve">
+    <value>Profil anda telah dikemaskini.</value>
+  </data>
+  <data name="PswdNotMatch" xml:space="preserve">
+    <value>Kata laluan tidak sama.</value>
+  </data>
+  <data name="PswdUpdateSuccess" xml:space="preserve">
+    <value>Kata laluan berjaya dikemaskini.</value>
+  </data>
+  <data name="Qty" xml:space="preserve">
+    <value>Kuantiti</value>
+  </data>
+  <data name="ReceiveOrder" xml:space="preserve">
+    <value>Kami telah menerima pesanan anda.</value>
+  </data>
+  <data name="RegisterDoubleRole" xml:space="preserve">
+    <value>Anda telah berjaya mendaftar sebagai kakitangan sebelum ini. Adakah anda ingin mendaftar sebagai ibu bapa / penjaga juga?</value>
+  </data>
+  <data name="RegisterSuccess" xml:space="preserve">
+    <value>Anda telah berjaya mendaftar. Sila log masuk menggunakan nombor MyKad / Pasport anda sebagai Nama Pengguna untuk meneruskan.</value>
+  </data>
+  <data name="Report" xml:space="preserve">
+    <value>Laporan</value>
+  </data>
+  <data name="RequestTimeoutText" xml:space="preserve">
+    <value>408 - Permintaan tamat masa</value>
+  </data>
+  <data name="SchoolClubExist" xml:space="preserve">
+    <value>Nama kelab sudah didaftarkan.</value>
+  </data>
+  <data name="SchoolClubSaveSuccess" xml:space="preserve">
+    <value>Kelab baru berjaya dicipta.</value>
+  </data>
+  <data name="SchoolName" xml:space="preserve">
+    <value>Nama Sekolah</value>
+  </data>
+  <data name="SelfPickup" xml:space="preserve">
+    <value>Ambil sendiri</value>
+  </data>
+  <data name="ServiceMethod" xml:space="preserve">
+    <value>Kaedah Perkhidmatan</value>
+  </data>
+  <data name="ServiceTemporaryDown" xml:space="preserve">
+    <value>Perkhidmatan tidak tersedia buat sementara waktu kerana penyelenggaraan. Sila cuba sebentar lagi.</value>
+  </data>
+  <data name="ServiceUnavailableText" xml:space="preserve">
+    <value>503 - Service Unavailable</value>
+  </data>
+  <data name="ShiftCode" xml:space="preserve">
+    <value>Kod Sesi</value>
+  </data>
+  <data name="SomethingWentWrong" xml:space="preserve">
+    <value>Ada sesuatu yang tidak kena. Sila cuba sebentar lagi.</value>
+  </data>
+  <data name="SorryAccNotActive" xml:space="preserve">
+    <value>Maaf, akaun tidak aktif.</value>
+  </data>
+  <data name="SorryAccountInactive" xml:space="preserve">
+    <value>Maaf, akaun anda tidak aktif.</value>
+  </data>
+  <data name="StaffAttendanceReportNotFound" xml:space="preserve">
+    <value>Laporan kehadiran kakitangan tidak dijumpai.</value>
+  </data>
+  <data name="StaffAttendanceReportSuccess" xml:space="preserve">
+    <value>Laporan kehadiran kakitangan berjaya dieksport.</value>
+  </data>
+  <data name="StaffAttNotFound" xml:space="preserve">
+    <value>Kehadiran kakitangan tidak dijumpai.</value>
+  </data>
+  <data name="StaffAttUpdateSuccess" xml:space="preserve">
+    <value>Kehadiran kakitangan berjaya dikemas kini.</value>
+  </data>
+  <data name="StaffDailyOrderReportTitle" xml:space="preserve">
+    <value>Laporan Pesanan Harian Kakitangan</value>
+  </data>
+  <data name="StaffName" xml:space="preserve">
+    <value>Nama Kakitangan</value>
+  </data>
+  <data name="StaffNotFound" xml:space="preserve">
+    <value>Kakitangan tidak dapat ddijumpai.</value>
+  </data>
+  <data name="StaffOrderReportNotFound" xml:space="preserve">
+    <value>Laporan pesanan harian kakitangan tidak dijumpai.</value>
+  </data>
+  <data name="StaffOrderReportSuccess" xml:space="preserve">
+    <value>Laporan pesanan harian kakitangan berjaya dieksport.</value>
+  </data>
+  <data name="StaffRemoveSuccess" xml:space="preserve">
+    <value>Kakitangan berjaya dikeluarkan.</value>
+  </data>
+  <data name="StaffShiftExist" xml:space="preserve">
+    <value>Waktu kerja kakitangan sudah didaftarkan.</value>
+  </data>
+  <data name="StaffShiftUpdateSuccess" xml:space="preserve">
+    <value>Waktu kerja kakitangan berjaya dikemas kini.</value>
+  </data>
+  <data name="StatusUpdateSuccess" xml:space="preserve">
+    <value>Status berjaya dikemas kini.</value>
+  </data>
+  <data name="StudentAccUpdateSuccess" xml:space="preserve">
+    <value>Akaun pelajar berjaya dikemas kini.</value>
+  </data>
+  <data name="StudentAttNotFound" xml:space="preserve">
+    <value>Kehadiran pelajar tidak dijumpai.</value>
+  </data>
+  <data name="StudentAttUpdateSuccess" xml:space="preserve">
+    <value>Kehadiran pelajar berjaya dikemas kini.</value>
+  </data>
+  <data name="StudentClassExist" xml:space="preserve">
+    <value>Kelas pelajar sudah didaftarkan.</value>
+  </data>
+  <data name="StudentClassUpdateSuccess" xml:space="preserve">
+    <value>Kelas pelajar berjaya dikemaskini.</value>
+  </data>
+  <data name="StudentClsNotFound" xml:space="preserve">
+    <value>Kelas pelajar tidak dijumpai.</value>
+  </data>
+  <data name="StudentClsRemoveSuccess" xml:space="preserve">
+    <value>Kelas pelajar berjaya dikeluarkan.</value>
+  </data>
+  <data name="StudentDailyOrderReport" xml:space="preserve">
+    <value>Laporan Pesanan Harian Pelajar</value>
+  </data>
+  <data name="StudentName" xml:space="preserve">
+    <value>Nama Pelajar</value>
+  </data>
+  <data name="StudentOrderReportNotFound" xml:space="preserve">
+    <value>Laporan pesanan harian pelajar tidak dijumpai.</value>
+  </data>
+  <data name="StudentOrderReportSuccess" xml:space="preserve">
+    <value>Laporan pesanan harian pelajar berjaya dieksport.</value>
+  </data>
+  <data name="StudentRelationshipNotFound" xml:space="preserve">
+    <value>Hubungan pelajar tidak dijumpai.</value>
+  </data>
+  <data name="StudentRelationshipRemoveSuccess" xml:space="preserve">
+    <value>Hubungan pelajar berjaya dikeluarkan.</value>
+  </data>
+  <data name="ThankYouFeedback" xml:space="preserve">
+    <value>Maklum balas anda amat dihargai.</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>Jumlah</value>
+  </data>
+  <data name="UnauthorizedText" xml:space="preserve">
+    <value>401 - Tanpa kebenaran</value>
+  </data>
+  <data name="UnitPrice" xml:space="preserve">
+    <value>Harga Unit</value>
+  </data>
+  <data name="UnsufficientWalletBalance" xml:space="preserve">
+    <value>Baki e-Wallet tidak mencukupi.</value>
+  </data>
+  <data name="UsernameIncorrect" xml:space="preserve">
+    <value>Nama pengguna anda tidak tepat/tidak didaftarkan.</value>
+  </data>
+  <data name="WrongOTP" xml:space="preserve">
+    <value>OTP tidak tepat.</value>
+  </data>
+  <data name="Year" xml:space="preserve">
+    <value>Tahun</value>
+  </data>
+  <data name="YourOrderHasBeenReceived" xml:space="preserve">
+    <value>Pesanan anda telah diterima.</value>
+  </data>
+  <data name="YourTopupFail" xml:space="preserve">
+    <value>Tambahan nilai kredit anda gagal.</value>
+  </data>
+  <data name="YourTopupSuccess" xml:space="preserve">
+    <value>Tambahan nilai kredit anda berjaya.</value>
+  </data>
+  <data name="YourTransferFail" xml:space="preserve">
+    <value>Pemindahan nilai credit anda gagal.</value>
+  </data>
+  <data name="YourTransferSuccess" xml:space="preserve">
+    <value>Kredit anda telah berjaya dipindahkan.</value>
+  </data>
+</root>
